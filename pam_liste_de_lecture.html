@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titre>Gestionnaire de Lecture Bidirectionnel - BiblioScope</titre>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-full flex flex-col font-sans">
+
+    <!-- En-tête -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2">
+            <div class="flex items-center space-x-3">
+                <div class="bg-emerald-600 text-white p-2.5 rounded-xl shadow-md">
+                    <i class="fa-solid fa-book-open-reader text-xl"></i>
+                </div>
+                <div class="hidden sm:block">
+                    <h1 class="text-lg font-bold text-slate-900 tracking-tight">BiblioScope</h1>
+                    <p class="text-xs text-slate-500">Gestion de lecture bidirectionnelle</p>
+                </div>
+            </div>
+            <!-- Navigation par onglets -->
+            <nav class="flex space-x-1 sm:space-x-2 bg-slate-100 p-1 rounded-xl">
+                <button onclick="switchTab('catalogue')" id="btn-tab-catalogue" class="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm">
+                    <i class="fa-solid fa-list mr-1.5 sm:mr-2"></i>Catalogue
+                </button>
+                <button onclick="switchTab('recherche')" id="btn-tab-recherche" class="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900">
+                    <i class="fa-solid fa-magnifying-glass mr-1.5 sm:mr-2"></i>Recherche Croisée
+                </button>
+            </nav>
+            <!-- Actions Export / Import JSON -->
+            <div class="flex items-center space-x-1.5">
+                <button onclick="exportData()" title="Exporter la liste (JSON)" class="p-2 text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 rounded-xl transition text-sm">
+                    <i class="fa-solid fa-download"></i>
+                </button>
+                <label title="Importer une liste (JSON)" class="p-2 text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 rounded-xl transition text-sm cursor-pointer">
+                    <i class="fa-solid fa-upload"></i>
+                    <input type="file" id="import-file" accept=".json" onchange="importData(event)" class="hidden">
+                </label>
+                <span>&emsp;</span>
+                <button onclick="chargerBibliothequeExcel()" title="Charger les données Excel" class="p-2 text-slate-500 hover:text-blue-600 rounded-xl">
+                    <i class="fa-solid fa-file-import"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- ONGLET 1 : CATALOGUE / GESTION -->
+        <section id="tab-catalogue" class="space-y-6">
+            <!-- Statistiques rapides -->
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                    <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl"><i class="fa-solid fa-books text-xl"></i></div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-medium">Total Ouvrages</p>
+                        <p id="stat-total" class="text-xl font-bold text-slate-800">0</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                    <div class="p-3 bg-green-50 text-green-600 rounded-xl"><i class="fa-solid fa-circle-check text-xl"></i></div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-medium">Livres Lus</p>
+                        <p id="stat-lus" class="text-xl font-bold text-slate-800">0</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                    <div class="p-3 bg-amber-50 text-amber-600 rounded-xl"><i class="fa-solid fa-spinner text-xl"></i></div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-medium">En cours</p>
+                        <p id="stat-encours" class="text-xl font-bold text-slate-800">0</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                    <div class="p-3 bg-blue-50 text-blue-600 rounded-xl"><i class="fa-solid fa-bookmark text-xl"></i></div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-medium">À lire</p>
+                        <p id="stat-alire" class="text-xl font-bold text-slate-800">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grille formulaire et liste -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Formulaire d'ajout / modification -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit">
+                    <h2 id="form-titre" class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-plus-circle text-emerald-600 mr-2"></i>Ajouter un ouvrage
+                    </h2>
+                    <form id="book-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <input type="hidden" id="book-id">
+                        <div class="relative">
+                            <div class="flex justify-between items-center mb-1">
+                                <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider">Auteur</label>
+                                <span class="text-[11px] text-slate-400">Autocomplétion active</span>
+                            </div>
+                            <input type="text" id="book-auteur" list="form-auteurs-datalist" autocomplete="off" required placeholder="Choisir ou saisir un auteur..." 
+                                oninput="filterauteurSuggestions()" onfocus="filterauteurSuggestions()"
+                                class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                            <datalist id="form-auteurs-datalist"></datalist>
+                            <!-- Menu déroulant personnalisé en temps réel -->
+                            <div id="custom-auteur-dropdown" class="hidden absolute left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg max-h-44 overflow-y-auto z-20 divide-y divide-slate-100"></div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1">Titre de l'ouvrage</label>
+                            <input type="text" id="book-titre" required placeholder="Ex: Les Misérables" 
+                                class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1">Statut</label>
+                            <select id="book-statut" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                                <option value="Lu">Lu</option>
+                                <option value="En cours">En cours</option>
+                                <option value="À lire">À lire</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1">Note / Avis (optionnel)</label>
+                            <textarea id="book-avis" rows="2" placeholder="Ex: Chef-d'œuvre absolu..." 
+                                class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all resize-none"></textarea>
+                        </div>
+                        <div class="flex space-x-3 pt-2">
+                            <button type="submit" id="submit-btn" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition shadow-sm shadow-emerald-200">
+                                Enregistrer
+                            </button>
+                            <button type="button" id="cancel-btn" onclick="resetForm()" class="hidden bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2.5 px-4 rounded-xl text-sm transition">
+                                Annuler
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Liste des livres du Catalogue -->
+                <div class="lg:col-span-2 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
+                        <div>
+                            <h2 class="text-lg font-bold text-slate-800">Catalogue complet</h2>
+                            <p class="text-xs text-slate-500">Cliquez sur <span class="text-emerald-600 font-semibold">+</span> à côté d'un auteur pour lui ajouter un titre</p>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
+                            <select id="catalogue-statut-filter" onchange="renderCatalogue()" class="px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                                <option value="ALL">Tous les statuts</option>
+                                <option value="Lu">Lus uniquement</option>
+                                <option value="En cours">En cours</option>
+                                <option value="À lire">À lire</option>
+                            </select>
+                            <div class="relative w-full sm:w-56">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-search text-xs"></i>
+                                </span>
+                                <input type="text" id="catalogue-search" oninput="renderCatalogue()" placeholder="Filtrer auteur, titre..." 
+                                    class="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tableau / Liste -->
+                    <div class="overflow-x-auto flex-grow rounded-xl border border-slate-100">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-50 text-slate-500 text-xs uppercase tracking-wider border-b border-slate-200">
+                                    <th class="py-3 px-4 font-semibold">Auteur</th>
+                                    <th class="py-3 px-4 font-semibold">Titre</th>
+                                    <th class="py-3 px-4 font-semibold">Statut</th>
+                                    <th class="py-3 px-4 font-semibold">Avis</th>
+                                    <th class="py-3 px-4 font-semibold text-right">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="catalogue-table-body" class="divide-y divide-slate-100 text-sm">
+                                <!-- Injecté dynamiquement -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ONGLET 2 : RECHERCHE BIDIRECTIONNELLE -->
+        <section id="tab-recherche" class="space-y-8 hidden">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <h2 class="text-2xl font-bold text-slate-800">Recherche Bidirectionnelle</h2>
+                <p class="text-sm text-slate-500">Interrogez votre bibliothèque instantanément par Auteur ou par Titre grâce à l'autocomplétion dynamique.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Recherche par Auteur -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <div class="flex items-center space-x-3 mb-3">
+                            <div class="p-2.5 bg-emerald-50 text-emerald-600 rounded-xl"><i class="fa-solid fa-feather-pointed"></i></div>
+                            <div>
+                                <h3 class="font-bold text-slate-800">Recherche par Auteur</h3>
+                                <p class="text-xs text-slate-500">Trouvez tous les ouvrages écrits par un auteur</p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <input type="text" id="search-auteur-input" list="auteurs-datalist" oninput="handleauteurSearch()" placeholder="Tapez ou sélectionnez un auteur..." 
+                                class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                            <datalist id="auteurs-datalist"></datalist>
+                        </div>
+                    </div>
+
+                    <div id="auteur-search-results" class="space-y-3">
+                        <div class="text-center py-8 text-slate-400 text-sm italic">
+                            Sélectionnez un auteur pour afficher ses ouvrages.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recherche par Titre -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <div class="flex items-center space-x-3 mb-3">
+                            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i class="fa-solid fa-book"></i></div>
+                            <div>
+                                <h3 class="font-bold text-slate-800">Recherche par Titre</h3>
+                                <p class="text-xs text-slate-500">Retrouvez l'auteur et le statut d'un livre</p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <input type="text" id="search-titre-input" list="titres-datalist" oninput="handletitreSearch()" placeholder="Tapez ou sélectionnez un titre..." 
+                                class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all">
+                            <datalist id="titres-datalist"></datalist>
+                        </div>
+                    </div>
+
+                    <div id="titre-search-results" class="space-y-3">
+                        <div class="text-center py-8 text-slate-400 text-sm italic">
+                            Sélectionnez un titre pour afficher son auteur et son statut.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modale de confirmation de suppression -->
+    <div id="delete-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm hidden">
+        <div class="bg-white rounded-2xl p-6 max-w-sm w-full mx-4 shadow-2xl border border-slate-100 space-y-4">
+            <div class="flex items-center space-x-3 text-rose-600">
+                <div class="p-3 bg-rose-50 rounded-xl"><i class="fa-solid fa-triangle-exclamation text-xl"></i></div>
+                <h3 class="font-bold text-slate-900 text-lg">Confirmer la suppression</h3>
+            </div>
+            <p class="text-sm text-slate-600">Êtes-vous sûr de vouloir supprimer cet ouvrage de votre bibliothèque ? Cette action est irréversible.</p>
+            <div class="flex space-x-3 pt-2">
+                <button type="button" onclick="closeDeleteModal()" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2.5 px-4 rounded-xl text-sm transition">
+                    Annuler
+                </button>
+                <button type="button" onclick="executeDelete()" class="flex-1 bg-rose-600 hover:bg-rose-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition shadow-sm shadow-rose-200">
+                    Supprimer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Box / Toast personnalisé -->
+    <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-slate-900 text-white px-5 py-3 rounded-xl shadow-xl flex items-center space-x-3 text-sm">
+        <i id="toast-icon" class="fa-solid fa-check-circle text-emerald-400"></i>
+        <span id="toast-msg">Action effectuée avec succès</span>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-400 mt-auto">
+        BiblioScope &bull; Application web interactive de liste de lecture &bull; Stockage local persistant
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script>
+        // Données initiales par défaut
+        const INITIAL_BOOKS = [
+            { id: '1', auteur: 'Victor Hugo', titre: 'Les Misérables', statut: 'Lu', avis: 'Une fresque monumentale inoubliable.' },
+            { id: '2', auteur: 'Victor Hugo', titre: 'Notre-Dame de Paris', statut: 'Lu', avis: 'Poétique et tragique.' },
+            { id: '3', auteur: 'Albert Camus', titre: 'L’Étranger', statut: 'Lu', avis: 'Style épuré, philosophie de l’absurde.' },
+            { id: '4', auteur: 'Albert Camus', titre: 'La Peste', statut: 'En cours', avis: 'Lecture captivante et métaphorique.' },
+            { id: '5', auteur: 'Marcel Proust', titre: 'À la recherche du temps perdu', statut: 'À lire', avis: 'Un grand classique ambitieux.' },
+            { id: '6', auteur: 'Antoine de Saint-Exupéry', titre: 'Le Petit Prince', statut: 'Lu', avis: 'Un conte philosophique intemporel.' }
+        ];
+
+        // Charger les livres depuis le localStorage ou initialiser
+        let books = JSON.parse(localStorage.getItem('biblioscope_books')) || INITIAL_BOOKS;
+        let bookToDeleteId = null;
+
+        // Sauvegarde dans localStorage
+        function saveBooks() {
+            localStorage.setItem('biblioscope_books', JSON.stringify(books));
+        }
+
+        // Fonction de chargement Excel
+        async function chargerBibliothequeExcel() {
+            try {
+                const response = await fetch("bibliotheque.json");
+            
+                if (!response.ok) {
+                    throw new Error("Fichier JSON introuvable : " + response.status);
+                }
+            
+                const data = await response.json();
+            
+                // Le JSON est une liste directe
+                if (!Array.isArray(data)) {
+                    throw new Error("Structure JSON incorrecte");
+                }
+            
+                // Conversion des données
+                books = data.map(b => ({
+                    id: String(b.id || ""),
+                    auteur: b.auteur || "",
+                    titre: b.titre || "",
+                    statut: b.statut || "À lire",
+                    avis: b.avis || b["avis"] || ""
+                }));
+            
+                saveBooks();
+                renderCatalogue();
+            
+                showToast(books.length + " ouvrage(s) chargés depuis Excel");
+            
+            } catch (erreur) {
+                console.error("Erreur de chargement :", erreur);
+                showToast("Erreur : " + erreur.message, "warning");
+            }
+        }
+        // Affichage des notifications Toast
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            const msgEl = document.getElementById('toast-msg');
+            const iconEl = document.getElementById('toast-icon');
+
+            msgEl.textContent = message;
+            if (type === 'success') {
+                iconEl.className = 'fa-solid fa-check-circle text-emerald-400';
+            } else {
+                iconEl.className = 'fa-solid fa-triangle-exclamation text-amber-400';
+            }
+
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        // Basculer entre les onglets
+        function switchTab(tabName) {
+            const catSection = document.getElementById('tab-catalogue');
+            const rechSection = document.getElementById('tab-recherche');
+            const btnCat = document.getElementById('btn-tab-catalogue');
+            const btnRech = document.getElementById('btn-tab-recherche');
+
+            if (tabName === 'catalogue') {
+                catSection.classList.remove('hidden');
+                rechSection.classList.add('hidden');
+                btnCat.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm';
+                btnRech.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900';
+                renderCatalogue();
+            } else {
+                catSection.classList.add('hidden');
+                rechSection.classList.remove('hidden');
+                btnRech.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm';
+                btnCat.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900';
+                initSearchDatalists();
+            }
+        }
+
+        // Obtenir le badge de couleur selon le statut
+        function getstatutBadge(statut) {
+            switch(statut) {
+                case 'Lu':
+                    return '<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700 border border-green-200"><i class="fa-solid fa-check mr-1.5"></i>Lu</span>';
+                case 'En cours':
+                    return '<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200"><i class="fa-solid fa-spinner mr-1.5"></i>En cours</span>';
+                case 'À lire':
+                    return '<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200"><i class="fa-solid fa-bookmark mr-1.5"></i>À lire</span>';
+                default:
+                    return `<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-700">${statut}</span>`;
+            }
+        }
+
+        // Mettre à jour les statistiques
+        function updateStats() {
+            document.getElementById('stat-total').textContent = books.length;
+            document.getElementById('stat-lus').textContent = books.filter(b => b.statut === 'Lu').length;
+            document.getElementById('stat-encours').textContent = books.filter(b => b.statut === 'En cours').length;
+            document.getElementById('stat-alire').textContent = books.filter(b => b.statut === 'À lire').length;
+        }
+
+        // Récupérer la liste triée des auteurs uniques
+        function getUniqueauteurs() {
+            return [...new Set(books.map(b => b.auteur.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
+        }
+
+        // Mettre à jour toutes les datalists d'auteurs et de titres
+        function syncDatalists() {
+            const auteurs = getUniqueauteurs();
+            const optionsHtml = auteurs.map(a => `<option value="${escapeHtml(a)}">`).join('');
+            
+            const formDatalist = document.getElementById('form-auteurs-datalist');
+            if (formDatalist) formDatalist.innerHTML = optionsHtml;
+
+            const searchDatalist = document.getElementById('auteurs-datalist');
+            if (searchDatalist) searchDatalist.innerHTML = optionsHtml;
+
+            const titres = [...new Set(books.map(b => b.titre.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
+            const titresDatalist = document.getElementById('titres-datalist');
+            if (titresDatalist) titresDatalist.innerHTML = titres.map(t => `<option value="${escapeHtml(t)}">`).join('');
+        }
+
+        // Menu déroulant d'autocomplétion personnalisé sur le formulaire
+        function filterauteurSuggestions() {
+            const input = document.getElementById('book-auteur');
+            const dropdown = document.getElementById('custom-auteur-dropdown');
+            const val = input.value.toLowerCase().trim();
+            const auteurs = getUniqueauteurs();
+
+            const matches = auteurs.filter(a => a.toLowerCase().includes(val));
+            if (matches.length === 0 || (matches.length === 1 && matches[0].toLowerCase() === val)) {
+                dropdown.classList.add('hidden');
+                return;
+            }
+
+            dropdown.innerHTML = matches.map(auteur => {
+                const count = books.filter(b => b.auteur === auteur).length;
+                return `
+                    <button type="button" onmousedown="selectFormauteur('${escapeJsStr(auteur)}')" 
+                        class="w-full text-left px-4 py-2 text-sm hover:bg-emerald-50 flex items-center justify-between transition">
+                        <span class="font-medium text-slate-800">${escapeHtml(auteur)}</span>
+                        <span class="text-xs text-slate-400">${count} livre(s)</span>
+                    </button>
+                `;
+            }).join('');
+            dropdown.classList.remove('hidden');
+        }
+
+        function selectFormauteur(auteurName) {
+            document.getElementById('book-auteur').value = auteurName;
+            document.getElementById('custom-auteur-dropdown').classList.add('hidden');
+            document.getElementById('book-titre').focus();
+        }
+
+        // Pré-remplir le formulaire avec un auteur existant et basculer sur le Catalogue
+        function quickAddForauteur(auteurName) {
+            switchTab('catalogue');
+            resetForm();
+            const auteurInput = document.getElementById('book-auteur');
+            const titreInput = document.getElementById('book-titre');
+            
+            auteurInput.value = auteurName;
+            document.getElementById('custom-auteur-dropdown').classList.add('hidden');
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            setTimeout(() => {
+                titreInput.focus();
+            }, 150);
+            showToast(`Ajout d'un ouvrage pour ${auteurName}`);
+        }
+
+        // Changement rapide de statut en un clic dans le catalogue
+        function cycleBookstatut(id) {
+            const order = ['À lire', 'En cours', 'Lu'];
+            const book = books.find(b => b.id === id);
+            if (!book) return;
+
+            const nextIdx = (order.indexOf(book.statut) + 1) % order.length;
+            book.statut = order[nextIdx];
+            saveBooks();
+            renderCatalogue();
+            showToast(`Statut passé à "${book.statut}"`);
+        }
+
+        // Rendu du Catalogue
+        function renderCatalogue() {
+            updateStats();
+            syncDatalists();
+            const tbody = document.getElementById('catalogue-table-body');
+            const searchVal = document.getElementById('catalogue-search').value.toLowerCase();
+            const statutFilter = document.getElementById('catalogue-statut-filter').value;
+
+            const filtered = books.filter(b => {
+                const matchesText = b.auteur.toLowerCase().includes(searchVal) || 
+                                    b.titre.toLowerCase().includes(searchVal) ||
+                                    b.statut.toLowerCase().includes(searchVal);
+                const matchesstatut = statutFilter === 'ALL' || b.statut === statutFilter;
+                return matchesText && matchesstatut;
+            });
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8 text-slate-400 italic">Aucun ouvrage trouvé</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = filtered.map(b => `
+                <tr class="hover:bg-slate-50 transition-colors group">
+                    <td class="py-3 px-4 font-medium text-slate-900">
+                        <div class="flex items-center justify-between gap-2">
+                            <span>${escapeHtml(b.auteur)}</span>
+                            <button onclick="quickAddForauteur('${escapeJsStr(b.auteur)}')" 
+                                class="opacity-70 group-hover:opacity-100 inline-flex items-center justify-center w-6 h-6 rounded-lg bg-emerald-50 text-emerald-600 hover:bg-emerald-600 hover:text-white transition text-xs" 
+                                titre="Ajouter un autre titre à ${escapeHtml(b.auteur)}">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </td>
+                    <td class="py-3 px-4 text-slate-700">${escapeHtml(b.titre)}</td>
+                    <td class="py-3 px-4">
+                        <button onclick="cycleBookstatut('${b.id}')" titre="Cliquer pour changer le statut" class="hover:scale-105 transition-transform">
+                            ${getstatutBadge(b.statut)}
+                        </button>
+                    </td>
+                    <td class="py-3 px-4 text-slate-500 text-xs italic max-w-xs truncate">${escapeHtml(b.avis || '-')}</td>
+                    <td class="py-3 px-4 text-right space-x-1">
+                        <button onclick="editBook('${b.id}')" class="text-slate-400 hover:text-emerald-600 p-1.5 rounded-lg transition" titre="Modifier">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </button>
+                        <button onclick="confirmDelete('${b.id}')" class="text-slate-400 hover:text-rose-600 p-1.5 rounded-lg transition" titre="Supprimer">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Gestion du formulaire (Ajout / Modification)
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const id = document.getElementById('book-id').value;
+            const auteur = document.getElementById('book-auteur').value.trim();
+            const titre = document.getElementById('book-titre').value.trim();
+            const statut = document.getElementById('book-statut').value;
+            const avis = document.getElementById('book-avis').value.trim();
+
+            if (id) {
+        // Modification
+                const index = books.findIndex(b => b.id === id);
+                if (index !== -1) {
+                    books[index] = { id, auteur, titre, statut, avis };
+                    showToast('Ouvrage modifié avec succès');
+                }
+            } else {
+        // Ajout
+                const newBook = {
+                    id: Date.now().toString(),
+                    auteur,
+                    titre,
+                    statut,
+                    avis
+                };
+                books.push(newBook);
+                showToast('Ouvrage ajouté avec succès');
+            }
+
+            saveBooks();
+            resetForm();
+            renderCatalogue();
+        }
+
+        function editBook(id) {
+            const book = books.find(b => b.id === id);
+            if (!book) return;
+
+            document.getElementById('book-id').value = book.id;
+            document.getElementById('book-auteur').value = book.auteur;
+            document.getElementById('book-titre').value = book.titre;
+            document.getElementById('book-statut').value = book.statut;
+            document.getElementById('book-avis').value = book.avis || '';
+
+            document.getElementById('form-titre').innerHTML = '<i class="fa-solid fa-pen-to-square text-emerald-600 mr-2"></i>Modifier l’ouvrage';
+            document.getElementById('submit-btn').textContent = 'Mettre à jour';
+            document.getElementById('cancel-btn').classList.remove('hidden');
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Gestion de la suppression avec modale
+        function confirmDelete(id) {
+            bookToDeleteId = id;
+            document.getElementById('delete-modal').classList.remove('hidden');
+        }
+
+        function closeDeleteModal() {
+            bookToDeleteId = null;
+            document.getElementById('delete-modal').classList.add('hidden');
+        }
+
+        function executeDelete() {
+            if (bookToDeleteId) {
+                books = books.filter(b => b.id !== bookToDeleteId);
+                saveBooks();
+                renderCatalogue();
+                
+        // Mettre à jour les recherches si actives
+                const activeTab = document.getElementById('tab-recherche');
+                if (!activeTab.classList.contains('hidden')) {
+                    handleauteurSearch();
+                    handletitreSearch();
+                }
+
+                showToast('Ouvrage supprimé', 'warning');
+            }
+            closeDeleteModal();
+        }
+
+        function resetForm() {
+            document.getElementById('book-form').reset();
+            document.getElementById('book-id').value = '';
+            document.getElementById('custom-auteur-dropdown').classList.add('hidden');
+            document.getElementById('form-titre').innerHTML = '<i class="fa-solid fa-plus-circle text-emerald-600 mr-2"></i>Ajouter un ouvrage';
+            document.getElementById('submit-btn').textContent = 'Enregistrer';
+            document.getElementById('cancel-btn').classList.add('hidden');
+        }
+
+        // --- RECHERCHE BIDIRECTIONNELLE ---
+        function initSearchDatalists() {
+            syncDatalists();
+        }
+
+        function handleauteurSearch() {
+            const query = document.getElementById('search-auteur-input').value.toLowerCase().trim();
+            const resultsContainer = document.getElementById('auteur-search-results');
+
+            if (!query) {
+                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Sélectionnez un auteur pour afficher ses ouvrages.</div>`;
+                return;
+            }
+
+            const matchingBooks = books.filter(b => b.auteur.toLowerCase().includes(query));
+
+            if (matchingBooks.length === 0) {
+                const rawInput = document.getElementById('search-auteur-input').value.trim();
+                resultsContainer.innerHTML = `
+                    <div class="text-center py-6 space-y-3">
+                        <p class="text-slate-400 text-sm italic">Aucun ouvrage trouvé pour cet auteur.</p>
+                        <button onclick="quickAddForauteur('${escapeJsStr(rawInput)}')" class="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-medium rounded-xl transition shadow-sm">
+                            <i class="fa-solid fa-plus mr-1.5"></i>Créer et ajouter un ouvrage pour "${escapeHtml(rawInput)}"
+                        </button>
+                    </div>`;
+                return;
+            }
+
+            const auteurName = matchingBooks[0].auteur;
+            resultsContainer.innerHTML = `
+                <div class="bg-emerald-50 border border-emerald-100 p-4 rounded-xl mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div>
+                        <p class="text-xs text-emerald-600 font-semibold uppercase tracking-wider">Auteur trouvé</p>
+                        <h4 class="text-lg font-bold text-slate-800">${escapeHtml(auteurName)}</h4>
+                        <p class="text-xs text-slate-600 mt-0.5">${matchingBooks.length} ouvrage(s) répertorié(s)</p>
+                    </div>
+                    <button onclick="quickAddForauteur('${escapeJsStr(auteurName)}')" 
+                        class="inline-flex items-center justify-center px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold rounded-xl transition shadow-sm shrink-0">
+                        <i class="fa-solid fa-plus mr-1.5"></i>Ajouter un ouvrage pour ${escapeHtml(auteurName)}
+                    </button>
+                </div>
+                <div class="space-y-3">
+                    ${matchingBooks.map(b => `
+                        <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl flex items-center justify-between">
+                            <div>
+                                <h5 class="font-bold text-slate-800 text-sm">${escapeHtml(b.titre)}</h5>
+                                ${b.avis ? `<p class="text-xs text-slate-500 italic mt-1">"${escapeHtml(b.avis)}"</p>` : ''}
+                            </div>
+                            <div>${getstatutBadge(b.statut)}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function handletitreSearch() {
+            const query = document.getElementById('search-titre-input').value.toLowerCase().trim();
+            const resultsContainer = document.getElementById('titre-search-results');
+
+            if (!query) {
+                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Sélectionnez un titre pour afficher son auteur et son statut.</div>`;
+                return;
+            }
+
+            const matchingBooks = books.filter(b => b.titre.toLowerCase().includes(query));
+
+            if (matchingBooks.length === 0) {
+                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Titre introuvable dans le catalogue.</div>`;
+                return;
+            }
+
+            resultsContainer.innerHTML = matchingBooks.map(b => `
+                <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl space-y-3">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wider">Ouvrage trouvé</p>
+                            <h4 class="text-lg font-bold text-slate-800">${escapeHtml(b.titre)}</h4>
+                        </div>
+                        <div>${getstatutBadge(b.statut)}</div>
+                    </div>
+                    <div class="border-t border-blue-200/50 pt-2 flex items-center justify-between text-sm">
+                        <span class="text-slate-600">Auteur : <strong class="text-slate-800">${escapeHtml(b.auteur)}</strong></span>
+                    </div>
+                    ${b.avis ? `<p class="text-xs text-slate-500 italic bg-white/60 p-2.5 rounded-lg">Avis : "${escapeHtml(b.avis)}"</p>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Échappement HTML basique
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#039;');
+        }
+
+        // Échappement pour attributs onclick JS
+        function escapeJsStr(str) {
+            if (!str) return '';
+            return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        }
+
+        // Export JSON
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(books, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", "biblioscope_lecture.json");
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+            showToast('Catalogue exporté en JSON');
+        }
+
+        // Import JSON
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (Array.isArray(imported)) {
+                        books = imported;
+                        saveBooks();
+                        renderCatalogue();
+                        showToast(`${books.length} ouvrage(s) importé(s)`);
+                    } else {
+                        showToast('Format de fichier invalide', 'warning');
+                    }
+                } catch (err) {
+                    showToast('Erreur lors de la lecture du JSON', 'warning');
+                }
+                event.target.value = '';
+            };
+            reader.readAsText(file);
+        }
+
+        // Fermer le menu déroulant d'autocomplétion au clic extérieur
+        document.addEventListener('click', function(e) {
+            const auteurInput = document.getElementById('book-auteur');
+            const dropdown = document.getElementById('custom-auteur-dropdown');
+            if (auteurInput && dropdown && !auteurInput.contains(e.target) && !dropdown.contains(e.target)) {
+                dropdown.classList.add('hidden');
+            }
+        });
+
+        // Initialisation au chargement
+        window.onload = function() {
+            renderCatalogue();
+        };
+    </script>
+</body>
+</html>
