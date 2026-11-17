@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titre>Gestionnaire de Lecture Bidirectionnel - BiblioScope</titre>
+    <titre class="hidden">Gestionnaire de Lecture Bidirectionnel - BiblioScope</titre>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome pour les icônes -->
@@ -218,9 +218,16 @@
                             </div>
                         </div>
                         <div class="relative">
-                            <input type="text" id="search-auteur-input" list="auteurs-datalist" oninput="handleauteurSearch()" placeholder="Tapez ou sélectionnez un auteur..." 
-                                class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
-                            <datalist id="auteurs-datalist"></datalist>
+                            <input type="text" id="search-auteur-input"
+                                autocomplete="off"
+                                oninput="handleauteurSearch(); filterSearchAuteurSuggestions()"
+                                onfocus="filterSearchAuteurSuggestions()"
+                                placeholder="Tapez ou sélectionnez un auteur..."
+                                class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                            <!-- Liste personnalisée : affichage vertical, adapté au tactile -->
+                            <div id="search-auteur-dropdown"
+                                class="hidden absolute left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl max-h-64 overflow-y-auto z-40 divide-y divide-slate-100">
+                            </div>
                         </div>
                     </div>
 
@@ -425,9 +432,6 @@
             const formDatalist = document.getElementById('form-auteurs-datalist');
             if (formDatalist) formDatalist.innerHTML = optionsHtml;
 
-            const searchDatalist = document.getElementById('auteurs-datalist');
-            if (searchDatalist) searchDatalist.innerHTML = optionsHtml;
-
             const titres = [...new Set(books.map(b => b.titre.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
             const titresDatalist = document.getElementById('titres-datalist');
             if (titresDatalist) titresDatalist.innerHTML = titres.map(t => `<option value="${escapeHtml(t)}">`).join('');
@@ -438,7 +442,7 @@
             const input = document.getElementById('book-auteur');
             const dropdown = document.getElementById('custom-auteur-dropdown');
             const val = input.value.toLowerCase().trim();
-            const auteurs = getUniqueauteurs();
+            const auteurs = getUniqueauteurs();           
 
             const matches = auteurs.filter(a => a.toLowerCase().includes(val));
             if (matches.length === 0 || (matches.length === 1 && matches[0].toLowerCase() === val)) {
@@ -637,6 +641,47 @@
         }
 
         // --- RECHERCHE BIDIRECTIONNELLE ---
+        // Suggestions verticales personnalisées pour la recherche par auteur.
+        // Contrairement à <datalist>, le rendu est maîtrisé sur PC et Android.
+        function filterSearchAuteurSuggestions() {
+            const input = document.getElementById('search-auteur-input');
+            const dropdown = document.getElementById('search-auteur-dropdown');
+            if (!input || !dropdown) return;
+
+            const query = input.value.toLocaleLowerCase('fr').trim();
+            const auteurs = getUniqueauteurs();
+            const matches = auteurs.filter(a =>
+                a.toLocaleLowerCase('fr').includes(query)
+            );
+
+            if (matches.length === 0) {
+                dropdown.innerHTML = '<div class="px-4 py-3 text-sm text-slate-400">Aucun auteur correspondant</div>';
+                dropdown.classList.remove('hidden');
+                return;
+            }
+
+            dropdown.innerHTML = matches.map(auteur => {
+                const count = books.filter(b => b.auteur === auteur).length;
+                return `
+                    <button type="button"
+                        onclick="selectSearchAuteur('${escapeJsStr(auteur)}')"
+                        class="w-full text-left px-4 py-3 text-base text-slate-800 hover:bg-emerald-50 active:bg-emerald-100 flex items-center justify-between gap-3 transition">
+                        <span class="font-medium">${escapeHtml(auteur)}</span>
+                        <span class="text-xs text-slate-400 whitespace-nowrap">${count} livre(s)</span>
+                    </button>`;
+            }).join('');
+
+            dropdown.classList.remove('hidden');
+        }
+
+        function selectSearchAuteur(auteur) {
+            const input = document.getElementById('search-auteur-input');
+            const dropdown = document.getElementById('search-auteur-dropdown');
+            input.value = auteur;
+            dropdown.classList.add('hidden');
+            handleauteurSearch();
+        }
+
         function initSearchDatalists() {
             syncDatalists();
         }
@@ -779,9 +824,15 @@
         // Fermer le menu déroulant d'autocomplétion au clic extérieur
         document.addEventListener('click', function(e) {
             const auteurInput = document.getElementById('book-auteur');
-            const dropdown = document.getElementById('custom-auteur-dropdown');
-            if (auteurInput && dropdown && !auteurInput.contains(e.target) && !dropdown.contains(e.target)) {
-                dropdown.classList.add('hidden');
+            const formDropdown = document.getElementById('custom-auteur-dropdown');
+            if (auteurInput && formDropdown && !auteurInput.contains(e.target) && !formDropdown.contains(e.target)) {
+                formDropdown.classList.add('hidden');
+            }
+
+            const searchInput = document.getElementById('search-auteur-input');
+            const searchDropdown = document.getElementById('search-auteur-dropdown');
+            if (searchInput && searchDropdown && !searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+                searchDropdown.classList.add('hidden');
             }
         });
 
