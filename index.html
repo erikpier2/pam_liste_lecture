@@ -311,38 +311,42 @@
         }
 
         // Fonction de chargement Excel
-        async function chargerBibliothequeExcel() {
+        // Chargement de la bibliothèque JSON
+        async function chargerBibliothequeExcel(afficherMessage = true) {
             try {
                 const response = await fetch("bibliotheque.json");
-            
+
                 if (!response.ok) {
-                    throw new Error("Fichier JSON introuvable : " + response.status);
+                    throw new Error("Fichier JSON introuvable");
                 }
-            
+
                 const data = await response.json();
-            
-                // Le JSON est une liste directe
+
                 if (!Array.isArray(data)) {
                     throw new Error("Structure JSON incorrecte");
                 }
-            
-                // Conversion des données
+
                 books = data.map(b => ({
                     id: String(b.id || ""),
                     auteur: b.auteur || "",
                     titre: b.titre || "",
                     statut: b.statut || "À lire",
-                    avis: b.avis || b["avis"] || ""
+                    avis: b.avis || b["avis/note"] || ""
                 }));
-            
+
                 saveBooks();
                 renderCatalogue();
-            
-                showToast(books.length + " ouvrage(s) chargés depuis Excel");
-            
+
+                if (afficherMessage) {
+                    showToast(books.length + " ouvrages chargés");
+                }
+
             } catch (erreur) {
                 console.error("Erreur de chargement :", erreur);
-                showToast("Erreur : " + erreur.message, "warning");
+
+                if (afficherMessage) {
+                    showToast("Erreur : " + erreur.message, "warning");
+                }
             }
         }
         // Affichage des notifications Toast
@@ -781,8 +785,9 @@
             }
         });
 
-        // Initialisation au chargement
-        window.onload = function() {
+        // Initialisation au chargement de la page
+        window.onload = async function() {
+            await chargerBibliothequeExcel(false);
             renderCatalogue();
         };
     </script>
