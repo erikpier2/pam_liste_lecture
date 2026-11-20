@@ -1,3047 +1,3047 @@
-﻿[
-    {
-      "id": "L-0007",
-      "auteur": "ADLER Elisabeth",
-      "titre": "à coeur perdu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0008",
-      "auteur": "ADLER Elisabeth",
-      "titre": "hotel riviera",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0009",
-      "auteur": "ADLER Elisabeth",
-      "titre": "les pièges du passé",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0010",
-      "auteur": "ADLER Elisabeth",
-      "titre": "l'ombre du destin",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0011",
-      "auteur": "AGUETANT Pierre",
-      "titre": "la terre qui vit_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0012",
-      "auteur": "AGUETANT Pierre",
-      "titre": "la terre qui vit_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0013",
-      "auteur": "ALAUX Jean-Pierre",
-      "titre": "médoc sur ordonnance",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0014",
-      "auteur": "ALEXANDRA Belinda",
-      "titre": "le gardénia blanc",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0015",
-      "auteur": "ALEXANDRA Belinda",
-      "titre": "un doux parfum de lavande",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0016",
-      "auteur": "ALEXIE Sheman",
-      "titre": "indian killer",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0017",
-      "auteur": "ALLENDE Isabel",
-      "titre": "la cité des dieux sauvages",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0018",
-      "auteur": "ALLENDE Isabel",
-      "titre": "le jeu de ripper_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0019",
-      "auteur": "ALSTERDAL Tove",
-      "titre": "dans le silence enterré",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0020",
-      "auteur": "AMANI Sandra",
-      "titre": "les mystères du nivernais",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0021",
-      "auteur": "ANGLADE Jean",
-      "titre": "dans le secret des roseaux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0022",
-      "auteur": "ANGLADE Jean",
-      "titre": "le faucheur d'ombres",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0023",
-      "auteur": "ANNE Sylvie",
-      "titre": "la lavandière de saint léger",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0024",
-      "auteur": "ANTOINE Amélie",
-      "titre": "le jour où",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0025",
-      "auteur": "ARMAND Marie-Paul",
-      "titre": "nouvelles du nord",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0026",
-      "auteur": "ARMSTRONG Kelley",
-      "titre": "apparition_90",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0027",
-      "auteur": "ARMSTRONG Kelley",
-      "titre": "magie de pacotille_3",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0028",
-      "auteur": "ARMSTRONG Kelley",
-      "titre": "morsure_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0029",
-      "auteur": "ARTIGES Isabelle",
-      "titre": "une vie de porcelaine",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0030",
-      "auteur": "ASTRABIE Sophie",
-      "titre": "la chance de sa vie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0031",
-      "auteur": "ASTRABIE Sophie",
-      "titre": "le secret de jeanne",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0032",
-      "auteur": "ASTRABIE Sophie",
-      "titre": "les bruits du souvenir",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0033",
-      "auteur": "AUBERT Brigitte",
-      "titre": "la mort des bois",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0034",
-      "auteur": "AUCOUTURIER Alain",
-      "titre": "le milhar aux guignes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0035",
-      "auteur": "BARBERAT Angélique",
-      "titre": "et maintenant",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0036",
-      "auteur": "BARDUGO Leigh",
-      "titre": "le familier",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0037",
-      "auteur": "BARON Sylvie",
-      "titre": "impasse des demoiselles",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0038",
-      "auteur": "BARON Sylvie",
-      "titre": "le silence des hautes terres",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0039",
-      "auteur": "BARON Sylvie",
-      "titre": "l'héritière des fajoux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0040",
-      "auteur": "BARRAL René",
-      "titre": "la liberté des enfants perdus",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0041",
-      "auteur": "BARRAL René",
-      "titre": "l'enfant secret de la borie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0042",
-      "auteur": "BARROWS Annie",
-      "titre": "le secret de la manufacture de chaussettes inusables",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0043",
-      "auteur": "BAUDIN Cécile",
-      "titre": "la constance de la louve",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0044",
-      "auteur": "BAUWEN Patrick",
-      "titre": "seul à savoir",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0045",
-      "auteur": "BELL David",
-      "titre": "la fille oubliée",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0046",
-      "auteur": "BENOILID Aurélien, NISSAND Maud",
-      "titre": "ce qui fait briller les étoiles",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0047",
-      "auteur": "BENZONI Juliette",
-      "titre": "les joyaux de la sorcière",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0048",
-      "auteur": "BEORN Paul",
-      "titre": "calame_1 les deux visages",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0049",
-      "auteur": "BERDUGAT Janine",
-      "titre": "les secrets de lise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0050",
-      "auteur": "BERLANDA Thierrry",
-      "titre": "déviation nord",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0051",
-      "auteur": "BERNIER Henriette",
-      "titre": "les ombres de l'enfance",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0052",
-      "auteur": "BERTHIER Cécile",
-      "titre": "la maison de la croix de pierre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0053",
-      "auteur": "BICKMORE Barbara",
-      "titre": "au cœur de la vie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0054",
-      "auteur": "BIVALD Katarina",
-      "titre": "La bibliothèque des cœurs cabossés",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0055",
-      "auteur": "BIVALD Katarina",
-      "titre": "Le jour où Anita envoya tout balader",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0056",
-      "auteur": "BLEUVENN Tiphaine",
-      "titre": "sylphide",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0057",
-      "auteur": "BOISSARD Janine",
-      "titre": "allez france",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0058",
-      "auteur": "BOISSARD Janine",
-      "titre": "belle arrière grand mère",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0059",
-      "auteur": "BOISSARD Janine",
-      "titre": "chuuut !",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0060",
-      "auteur": "BOISSARD Janine",
-      "titre": "elle parlait aux fleurs",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0061",
-      "auteur": "BOISSARD Janine",
-      "titre": "histoire d'amour",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0062",
-      "auteur": "BOISSARD Janine",
-      "titre": "la chaloupe",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0063",
-      "auteur": "BOISSARD Janine",
-      "titre": "laisse moi le dire",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0064",
-      "auteur": "BOISSARD Janine",
-      "titre": "le talisman",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0065",
-      "auteur": "BOISSARD Janine",
-      "titre": "puisque tu m'aimes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0066",
-      "auteur": "BOISSARD Janine",
-      "titre": "quand la belle se réveillera",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0067",
-      "auteur": "BOISSARD Janine",
-      "titre": "roses de sang roses d'ouessant",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0068",
-      "auteur": "BOISSARD Janine",
-      "titre": "une femme neuve",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0069",
-      "auteur": "BOISSEL Catherine",
-      "titre": "la sorcière sur la falaise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0070",
-      "auteur": "BOITEUX Marie-Thérèse",
-      "titre": "le secret de louise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0071",
-      "auteur": "BOLGER Dermot",
-      "titre": "toute la famille sur la jetée du paradis",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0072",
-      "auteur": "BORDAGE Pierre",
-      "titre": "cité",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0073",
-      "auteur": "BORDAGE Pierre",
-      "titre": "rive droite",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0074",
-      "auteur": "BORDAGE Pierre",
-      "titre": "rive gauche",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0075",
-      "auteur": "BORDES Gilbert",
-      "titre": "chante rossignol",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0076",
-      "auteur": "BORDES Gilbert",
-      "titre": "la neige fond toujours au printemps",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0077",
-      "auteur": "BORDES Gilbert",
-      "titre": "le testament d'adrien",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0078",
-      "auteur": "BORDES Gilbert",
-      "titre": "les enfants de l'hiver",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0079",
-      "auteur": "BOSSUGE Micheline",
-      "titre": "la maison d'anaïs",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0080",
-      "auteur": "BOUHELIER Clément",
-      "titre": "olangar",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0081",
-      "auteur": "BOURDIN Françoise",
-      "titre": "comme un frère",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0082",
-      "auteur": "BOURDIN Françoise",
-      "titre": "dans le silence de l'autre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0083",
-      "auteur": "BOURDIN Françoise",
-      "titre": "dans les bras d'ariane",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0084",
-      "auteur": "BOURDIN Françoise",
-      "titre": "d'eau et de feu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0085",
-      "auteur": "BOURDIN Françoise",
-      "titre": "face à la mer",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0086",
-      "auteur": "BOURDIN Françoise",
-      "titre": "hors saison",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0087",
-      "auteur": "BOURDIN Françoise",
-      "titre": "la camarguaise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0088",
-      "auteur": "BOURDIN Françoise",
-      "titre": "le choix des autres",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0089",
-      "auteur": "BOURDIN Françoise",
-      "titre": "le choix d'une femme libre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0090",
-      "auteur": "BOURDIN Françoise",
-      "titre": "les années passion",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0091",
-      "auteur": "BOURDIN Françoise",
-      "titre": "les bois de battandières",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0092",
-      "auteur": "BOURDIN Françoise",
-      "titre": "les sirènes de saint-malo",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0093",
-      "auteur": "BOURDIN Françoise",
-      "titre": "l'homme de leur vie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0094",
-      "auteur": "BOURDIN Françoise",
-      "titre": "l'inconnue de peyrolles",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0095",
-      "auteur": "BOURDIN Françoise",
-      "titre": "objet de toutes les convoitises",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0096",
-      "auteur": "BOURDIN Françoise",
-      "titre": "quelqu'un de bien",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0097",
-      "auteur": "BOURDIN Françoise",
-      "titre": "sans regret",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0098",
-      "auteur": "BOURDIN Françoise",
-      "titre": "un mariage d'amour",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0099",
-      "auteur": "BOURDIN Françoise",
-      "titre": "une nouvelle vie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0100",
-      "auteur": "BOURDON Françoise",
-      "titre": "à travers la nuit et le vent",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0101",
-      "auteur": "BOURDON Françoise",
-      "titre": "la fontaine aux violettes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0102",
-      "auteur": "BOURDON Françoise",
-      "titre": "la maison de charlotte",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0103",
-      "auteur": "BOURDON Françoise",
-      "titre": "la maison de violette",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0104",
-      "auteur": "BOURDON Françoise",
-      "titre": "la roche aux loups",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0105",
-      "auteur": "BOURDON Françoise",
-      "titre": "le secret de belle épine",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0106",
-      "auteur": "BOURDON Françoise",
-      "titre": "les sentiers de l'aube",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0107",
-      "auteur": "BOURDON Françoise",
-      "titre": "retour au pays bleu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0108",
-      "auteur": "BOURDON Françoise",
-      "titre": "si loin si proche",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0109",
-      "auteur": "BOYD William",
-      "titre": "la vie aux aguets",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0110",
-      "auteur": "BOYDEN Joseph",
-      "titre": "la-haut vers le nord",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0111",
-      "auteur": "BOYNE John",
-      "titre": "les fureurs invisibles du cœur",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0112",
-      "auteur": "BRASEY Edouard",
-      "titre": "la ferme aux maléfices",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0113",
-      "auteur": "BREAR Anne-Marie",
-      "titre": "avec espoir pour horizon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0114",
-      "auteur": "BREAR Anne-Marie",
-      "titre": "le domaine de berrima",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0115",
-      "auteur": "BREUZÉ Patrick",
-      "titre": "la jeune fille qui déplaçait les montagnes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0116",
-      "auteur": "BREUZÉ Patrick",
-      "titre": "la montagne pour refuge",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0117",
-      "auteur": "BRIEUC Michelle",
-      "titre": "un horizon à part",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0118",
-      "auteur": "BROCKOLE Jessica",
-      "titre": "une lettre de vous",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0119",
-      "auteur": "BROOCHMITT Adella Jane",
-      "titre": "les maux que nous taisons",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0120",
-      "auteur": "BROPER Mélissa",
-      "titre": "sous le signe des poissons",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0121",
-      "auteur": "BROSSARD LEGRAND Monique",
-      "titre": "elise des montagnes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0122",
-      "auteur": "BROWN Sandra",
-      "titre": "jalouse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0123",
-      "auteur": "BUSSI Michel",
-      "titre": "le temps est assassin",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0124",
-      "auteur": "BUSSI Michel",
-      "titre": "maman a tort",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0125",
-      "auteur": "BUSSI Michel",
-      "titre": "n'oublie jamais",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0126",
-      "auteur": "BUSSI Michel",
-      "titre": "rien ne t'efface",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0127",
-      "auteur": "BUSSI Michel",
-      "titre": "sang famille",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0128",
-      "auteur": "BUSSI Michel",
-      "titre": "un avion sans elle",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0129",
-      "auteur": "CALIDAS Tamsin",
-      "titre": "je suis une île",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0130",
-      "auteur": "CALMEL Mireille",
-      "titre": "d'écume et de sang",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0131",
-      "auteur": "CALMEL Mireille",
-      "titre": "la marquise de sade",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0132",
-      "auteur": "CALMEL Mireille",
-      "titre": "la prisonnière du diable",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0133",
-      "auteur": "CALMEL Mireille",
-      "titre": "la rivière des âmes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0134",
-      "auteur": "CALMEL Mireille",
-      "titre": "lady pirate",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0135",
-      "auteur": "CALMEL Mireille",
-      "titre": "le bal des louves_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0136",
-      "auteur": "CALMEL Mireille",
-      "titre": "le bal des louves_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0137",
-      "auteur": "CALMEL Mireille",
-      "titre": "le secret de margaux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0138",
-      "auteur": "CALMEL Mireille",
-      "titre": "le templier de l'ombre_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0139",
-      "auteur": "CALMEL Mireille",
-      "titre": "le templier de l'ombre_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0140",
-      "auteur": "CALMEL Mireille",
-      "titre": "l'or maudit",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0141",
-      "auteur": "CAMAILLE Serge",
-      "titre": "du sang sur la neige",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0142",
-      "auteur": "CAMILLERI Andréa",
-      "titre": "le cuisinier de l'alcyon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0143",
-      "auteur": "CARAYON Christian",
-      "titre": "les saisons d'après",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0144",
-      "auteur": "CARBONI Cristina",
-      "titre": "la souffleuse du temps",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0145",
-      "auteur": "CARBONI Cristina",
-      "titre": "une vie entre les pages",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0146",
-      "auteur": "CARIO Daniel",
-      "titre": "une cité si tranquille",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0147",
-      "auteur": "CARLES Emilie",
-      "titre": "une soupe aux herbes sauvages",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0148",
-      "auteur": "CARMONA Marie-Béatrice",
-      "titre": "deux femmes pour un orient",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0149",
-      "auteur": "CARR Robyn",
-      "titre": "attirance-5",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0150",
-      "auteur": "CARR Robyn",
-      "titre": "virginie river",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0151",
-      "auteur": "CASHORE Kristin",
-      "titre": "bitterblue",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0152",
-      "auteur": "CASS Kiera",
-      "titre": "la sélection",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0153",
-      "auteur": "CASS Kiera",
-      "titre": "l'élite",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0154",
-      "auteur": "CASS Kiera",
-      "titre": "l'élue",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0155",
-      "auteur": "CATT Elle",
-      "titre": "la dernière muse_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0156",
-      "auteur": "CATT Elle",
-      "titre": "la dernière muse_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0157",
-      "auteur": "CAVANNA François",
-      "titre": "coups de sang",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0158",
-      "auteur": "CAVANNA François",
-      "titre": "le con se surpasse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0159",
-      "auteur": "CERRUTI Fabien",
-      "titre": "kosigan",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0160",
-      "auteur": "CERRUTI Fabien",
-      "titre": "un printemps de sang",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0161",
-      "auteur": "CHALAYER Maurice",
-      "titre": "les neiges du mont argental",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0162",
-      "auteur": "CHAUVEAU Sophie",
-      "titre": "noces de charbon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0163",
-      "auteur": "CHAUVY Véronique",
-      "titre": "l'éclair d'argent",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0164",
-      "auteur": "CHEVALIER Vanessa",
-      "titre": "l'enfant de la colère",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0165",
-      "auteur": "CLANCHY Kate",
-      "titre": "crème anglaise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0166",
-      "auteur": "CLARE Lucy",
-      "titre": "un bonheur inattendu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0167",
-      "auteur": "CLARKE Rosie",
-      "titre": "les demoiselles d'oxford street_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0168",
-      "auteur": "CLARKE Rosie",
-      "titre": "les demoiselles d'oxford street_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0169",
-      "auteur": "COATES Ta-Nehisi",
-      "titre": "la danse de l'eau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0170",
-      "auteur": "COATMEUR Jean-François",
-      "titre": "l'ouest barbare",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0171",
-      "auteur": "COBEN Harlan",
-      "titre": "à découvert",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0172",
-      "auteur": "COBEN Harlan",
-      "titre": "à quelques secondes près",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0173",
-      "auteur": "COBEN Harlan",
-      "titre": "à toute épreuve",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0174",
-      "auteur": "COBEN Harlan",
-      "titre": "dans les bois",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0175",
-      "auteur": "COBEN Harlan",
-      "titre": "double piège",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0176",
-      "auteur": "COBEN Harlan",
-      "titre": "du sang sur le green",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0177",
-      "auteur": "COBEN Harlan",
-      "titre": "faute de preuves",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0178",
-      "auteur": "COBEN Harlan",
-      "titre": "gagner n'est pas jouer",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0179",
-      "auteur": "COBEN Harlan",
-      "titre": "intimidation",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0180",
-      "auteur": "COBEN Harlan",
-      "titre": "juste un regard",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0181",
-      "auteur": "COBEN Harlan",
-      "titre": "l'inconnu de la forêt",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0182",
-      "auteur": "COBEN Harlan",
-      "titre": "méfie toi",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0183",
-      "auteur": "COBEN Harlan",
-      "titre": "ne t'éloigne pasidentités croisées",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0184",
-      "auteur": "COBEN Harlan",
-      "titre": "ne t'enfuis plus",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0185",
-      "auteur": "COBEN Harlan",
-      "titre": "par accident",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0186",
-      "auteur": "COBEN Harlan",
-      "titre": "promets moi",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0187",
-      "auteur": "COBEN Harlan",
-      "titre": "sans défense",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0188",
-      "auteur": "COBEN Harlan",
-      "titre": "sans un adieu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0189",
-      "auteur": "COBEN Harlan",
-      "titre": "six ans déjà",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0190",
-      "auteur": "COBEN Harlan",
-      "titre": "sous haute tension",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0191",
-      "auteur": "COBEN Harlan",
-      "titre": "sur tes traces",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0192",
-      "auteur": "COBEN Harlan",
-      "titre": "temps mort",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0193",
-      "auteur": "COBEN Harlan",
-      "titre": "tu me manques",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0194",
-      "auteur": "COLGAN Jenny",
-      "titre": "au delà des nuages",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0195",
-      "auteur": "COLGAN Jenny",
-      "titre": "de fil en aiguille",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0196",
-      "auteur": "COLGAN Jenny",
-      "titre": "la charmante librairie des jours heureux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0197",
-      "auteur": "COLGAN Jenny",
-      "titre": "les confiseries de rosie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0198",
-      "auteur": "COLGAN Jenny",
-      "titre": "l'hotel du bord de l'eau sous la neige",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0199",
-      "auteur": "COLGAN Jenny",
-      "titre": "un mariage au bord de l'eau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0200",
-      "auteur": "COLGAN Jenny",
-      "titre": "une rencontre au bord de l'eau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0201",
-      "auteur": "COLLETTE Sandrine",
-      "titre": "et toujours les forêts",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0202",
-      "auteur": "COMBES Bruno",
-      "titre": "ce que je n'oserai jamais te dire",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0203",
-      "auteur": "COMMERE Hervé",
-      "titre": "sauf",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0204",
-      "auteur": "CONAN James",
-      "titre": "dans l'ombre de la ville",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0205",
-      "auteur": "CONDÉ Maryse",
-      "titre": "les saveurs et les mots",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0206",
-      "auteur": "CONNELY Mickael",
-      "titre": "echo park",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0207",
-      "auteur": "CONNOLY John",
-      "titre": "la nuit des corbeaux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0208",
-      "auteur": "CONNOLY John",
-      "titre": "le chant des dunes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0209",
-      "auteur": "COOK Robin",
-      "titre": "erreur fatale",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0210",
-      "auteur": "COPLETON Jackie",
-      "titre": "la voix des vagues",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0211",
-      "auteur": "CORDOUAN Manuel",
-      "titre": "la carte maitresse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0212",
-      "auteur": "CORGIAT Sylviane, LECIGNE Bruno",
-      "titre": "le jeu de la trame",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0213",
-      "auteur": "CORNAILLE Didier",
-      "titre": "adam en héritage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0214",
-      "auteur": "CORNAILLE Didier",
-      "titre": "étrangers à la terre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0215",
-      "auteur": "CORNAILLE Didier",
-      "titre": "le chemin de la ronceraie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0216",
-      "auteur": "CORNAILLE Didier",
-      "titre": "sur les cendres des ronces",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0217",
-      "auteur": "CORNWELL Patricia",
-      "titre": "affaire classée",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0218",
-      "auteur": "CORNWELL Patricia",
-      "titre": "autopsie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0219",
-      "auteur": "CORNWELL Patricia",
-      "titre": "baton rouge",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0220",
-      "auteur": "CORNWELL Patricia",
-      "titre": "cadavre x",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0221",
-      "auteur": "CORNWELL Patricia",
-      "titre": "chaos",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0222",
-      "auteur": "CORNWELL Patricia",
-      "titre": "combustion",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0223",
-      "auteur": "CORNWELL Patricia",
-      "titre": "havre des morts",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0224",
-      "auteur": "CORNWELL Patricia",
-      "titre": "inhumaine",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0225",
-      "auteur": "CORNWELL Patricia",
-      "titre": "jack l'éventreur",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0226",
-      "auteur": "CORNWELL Patricia",
-      "titre": "la griffe du sud",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0227",
-      "auteur": "CORNWELL Patricia",
-      "titre": "la séquence des corps",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0228",
-      "auteur": "CORNWELL Patricia",
-      "titre": "l'instinct du mal",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0229",
-      "auteur": "CORNWELL Patricia",
-      "titre": "livide",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0230",
-      "auteur": "CORNWELL Patricia",
-      "titre": "monnaie de sang",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0231",
-      "auteur": "CORNWELL Patricia",
-      "titre": "mordoc",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0232",
-      "auteur": "CORNWELL Patricia",
-      "titre": "morts en eaux troubles",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0233",
-      "auteur": "CORNWELL Patricia",
-      "titre": "orbite",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0234",
-      "auteur": "CORNWELL Patricia",
-      "titre": "post mortem",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0235",
-      "auteur": "CORNWELL Patricia",
-      "titre": "registre des morts",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0236",
-      "auteur": "CORNWELL Patricia",
-      "titre": "scarpetta",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0237",
-      "auteur": "CORNWELL Patricia",
-      "titre": "tolérance zéro",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0238",
-      "auteur": "CORNWELL Patricia",
-      "titre": "trainée de poudre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0239",
-      "auteur": "CORNWELL Patricia",
-      "titre": "une mort sans nom",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0240",
-      "auteur": "CORNWELL Patricia",
-      "titre": "une peine d'exception",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0241",
-      "auteur": "CORNWELL Patricia",
-      "titre": "vent de glace",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0242",
-      "auteur": "CORNWELL Patricia",
-      "titre": "voile rouge",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0243",
-      "auteur": "COSBY Shawn André",
-      "titre": "les routes oubliées",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0244",
-      "auteur": "COSTELOE Diney",
-      "titre": "les enfants de sainte croix",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0245",
-      "auteur": "COTTER Erin",
-      "titre": "un cœur déloyal",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0246",
-      "auteur": "COVIN Alec",
-      "titre": "les loups de fenryder",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0247",
-      "auteur": "CROMBIE Deborah",
-      "titre": "mort sur la tamise",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0248",
-      "auteur": "CROZES Daniel",
-      "titre": "la fille de la ramière",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0249",
-      "auteur": "CROZES Daniel",
-      "titre": "le bal des gueules noires",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0250",
-      "auteur": "CROZES Daniel",
-      "titre": "le rebouteux des montagnes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0251",
-      "auteur": "DA COSTA Mélissa",
-      "titre": "la doublure",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0252",
-      "auteur": "DA COSTA Mélissa",
-      "titre": "les lendemains",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0253",
-      "auteur": "DA COSTA Mélissa",
-      "titre": "tenir debout",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0254",
-      "auteur": "DA COSTA Mélissa",
-      "titre": "tout le bleu du ciel",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0255",
-      "auteur": "D'ADAMO Ada",
-      "titre": "Daria",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0256",
-      "auteur": "DALBAN-MOREYNAS Géraldine",
-      "titre": "elle voulait juste être heureuse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0257",
-      "auteur": "D'AMATO Barbara",
-      "titre": "avant qu'il ne soit trop tard",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0258",
-      "auteur": "DANIELS Lucy",
-      "titre": "un hiver inoubliable à vert-cottage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0259",
-      "auteur": "DANIELS Lucy",
-      "titre": "un printemps éblouissant à vert-cottage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0260",
-      "auteur": "DAOUD Kamel",
-      "titre": "houris",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0261",
-      "auteur": "DAVE Laura",
-      "titre": "dernières vendanges",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0262",
-      "auteur": "DAVIDSON Andy",
-      "titre": "la fille du batelier",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0263",
-      "auteur": "DE BROC Nathalie",
-      "titre": "la sorcière de locronan",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0264",
-      "auteur": "DE BROC Nathalie",
-      "titre": "les étés de grandes maisons",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0265",
-      "auteur": "DE BROCA Alexandra",
-      "titre": "la princesse effacée",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0266",
-      "auteur": "DE BROCA Alexandra",
-      "titre": "la soeur du roi",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0267",
-      "auteur": "DE CARLO Andréa",
-      "titre": "deux sur deux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0268",
-      "auteur": "DE HARRIBA Suzanne",
-      "titre": "un ange égaré sur terre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0269",
-      "auteur": "DE HARRIBA Suzanne",
-      "titre": "un hiver pour aimer",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0270",
-      "auteur": "DE PALET Marie",
-      "titre": "jeanne courage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0271",
-      "auteur": "DE PALET Marie",
-      "titre": "la tondue",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0272",
-      "auteur": "DE PALET Marie",
-      "titre": "le destin de marie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0273",
-      "auteur": "DE PALET Marie",
-      "titre": "mademoiselle fine",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0274",
-      "auteur": "DE PLACE Madeleine",
-      "titre": "qui sauve une vie sauve le monde",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0275",
-      "auteur": "DE SÉE Julie-Anne",
-      "titre": "au-delà des mères",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0276",
-      "auteur": "DEBRIFFE Martial",
-      "titre": "les peyries",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0277",
-      "auteur": "DEBURON Nicole",
-      "titre": "dix jours de rêve",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0278",
-      "auteur": "DEBURON Nicole",
-      "titre": "vas y maman",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0279",
-      "auteur": "DEGHELT Frédérique",
-      "titre": "les brumes de l'apparence",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0280",
-      "auteur": "DEGHELT Frédérique",
-      "titre": "libertango",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0281",
-      "auteur": "DEGROOTE Annie",
-      "titre": "des cendres sur nos cœurs",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0282",
-      "auteur": "DELACOURT Grégoire",
-      "titre": "la liste de mes envies",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0283",
-      "auteur": "DELMAS Bénédicte",
-      "titre": "jeanne la rebelle de dieu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0284",
-      "auteur": "DELOMME Martine",
-      "titre": "le pacte du silence",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0285",
-      "auteur": "DELOMME Martine",
-      "titre": "l'impossible pardon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0286",
-      "auteur": "DESOMBRE Daria",
-      "titre": "les disparues du tableau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0287",
-      "auteur": "DESPLAT DUC Anne-Marie",
-      "titre": "les héritiers de la bise_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0288",
-      "auteur": "DESPLAT DUC Anne-Marie",
-      "titre": "les héritiers de la bise_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0289",
-      "auteur": "DESROCHERS Suzanne",
-      "titre": "les filles du nouveau monde",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0290",
-      "auteur": "D'ESTIENNE D'ORVE Nicolas",
-      "titre": "l'enfant du premier matin",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0291",
-      "auteur": "DEWDNEY Patrick K.",
-      "titre": "la peste et la vigne",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0292",
-      "auteur": "DEWDNEY Patrick K.",
-      "titre": "l'enfant de poussière",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0293",
-      "auteur": "DEWDNEY Patrick K.",
-      "titre": "les chiens et la charrue",
-      "statut": "Lu",
-      "avis/note": "***"
-    },
-    {
-      "id": "L-0294",
-      "auteur": "DIXEN Victor",
-      "titre": "la promise_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0295",
-      "auteur": "DIXEN Victor",
-      "titre": "la promise_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0296",
-      "auteur": "DIXEN Victor",
-      "titre": "les mystères d'eversand",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0297",
-      "auteur": "DIXEN Victor",
-      "titre": "les mystères d'eversand tome 3 : l'épouse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0298",
-      "auteur": "DIXEN Victor",
-      "titre": "les mystères d'eversand tome 4 : l'hérétique",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0299",
-      "auteur": "DONGALA Emmanuel",
-      "titre": "la sonate à bridgetower_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0300",
-      "auteur": "DONGALA Emmanuel",
-      "titre": "la sonate à bridgetower_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0301",
-      "auteur": "DORIN Françoise",
-      "titre": "le cœur à deux places",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0302",
-      "auteur": "DRECOURT Aurore",
-      "titre": "la fille destinée des kerdelec",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0303",
-      "auteur": "DRECOURT Aurore",
-      "titre": "un secret bien gardé",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0304",
-      "auteur": "DROUIN Dominique",
-      "titre": "de mère en fille tome 1 : alice",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0305",
-      "auteur": "DROUIN Dominique",
-      "titre": "de mère en fille tome 2 : ariane",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0306",
-      "auteur": "DROUIN Dominique",
-      "titre": "de mère en fille tome 3 : anaïs",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0307",
-      "auteur": "DROUIN Dominique",
-      "titre": "de mère en fille tome 4 : ava",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0308",
-      "auteur": "DUBOS Alain",
-      "titre": "constance et la ville d'hiver",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0309",
-      "auteur": "DUCLOZ Albert",
-      "titre": "le chant d'aurore",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0310",
-      "auteur": "DUCLOZ Albert",
-      "titre": "le violon d'or",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0311",
-      "auteur": "DUFF Micheline",
-      "titre": "d'un silence à l'autre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0312",
-      "auteur": "DUFF Micheline",
-      "titre": "la lumière des mots",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0313",
-      "auteur": "DUFF Micheline",
-      "titre": "les promesses de l'aube",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0314",
-      "auteur": "DUPLESSIS-ROUSEE Carole",
-      "titre": "la fille des belles marines",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0315",
-      "auteur": "DUPLESSIS-ROUSEE Carole",
-      "titre": "l'or du soir",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0316",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "albane tome 1 : un ciel d'orage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0317",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "amélia un cœur en exil",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0318",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "Angélina, tome 1 : Les Mains de la vie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0319",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "Angélina, tome 2 : Le Temps des délivrances",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0320",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "Angélina, tome 3 : La Force de l'aurore (ou Le souffle de l'aurore)",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0321",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "la galerie des jalouses_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0322",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "la galerie des jalouses_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0323",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "la galerie des jalouses_3",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0324",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "l'amour écorché",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0325",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "le chant de l'océan",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0326",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "le refuge aux roses",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0327",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "le scandale des eaux folles_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0328",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "les feux de noêl",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0329",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "les larmes de l'hudson",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0330",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "les lumières de broadway",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0331",
-      "auteur": "DUPUY Marie-Bernadette",
-      "titre": "l'orpheline de manhattan",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0332",
-      "auteur": "DURAND Jacky",
-      "titre": "soleil d'or",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0333",
-      "auteur": "DURRENS Janine",
-      "titre": "pernelle et nicolas flamel",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0334",
-      "auteur": "EBERLEN Kate",
-      "titre": "miss you",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0335",
-      "auteur": "EDWARDSON Ake",
-      "titre": "le ciel se trouve sur terre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0336",
-      "auteur": "ELLORY Roger Jon",
-      "titre": "les neuf cercles",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0337",
-      "auteur": "EWING Amy",
-      "titre": "la clé noire",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0338",
-      "auteur": "EWING Amy",
-      "titre": "la rose blanche",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0339",
-      "auteur": "EWING Amy",
-      "titre": "le joyau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0340",
-      "auteur": "FERGUS Jim",
-      "titre": "les amazones",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0341",
-      "auteur": "FERNAYE Eléonore",
-      "titre": "audacieuse sarah",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0342",
-      "auteur": "FERNAYE Eléonore",
-      "titre": "aventureuse constance",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0343",
-      "auteur": "FERNAYE Eléonore",
-      "titre": "scandaleuse elisabeth",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0344",
-      "auteur": "FERRANTE Elena",
-      "titre": "la vie mensongère des adultes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0345",
-      "auteur": "FISCHER Elise",
-      "titre": "les noces de marie victoire",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0346",
-      "auteur": "FLETCHER Suzanne",
-      "titre": "la fille de l'irlandais",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0347",
-      "auteur": "FOLLETT Ken",
-      "titre": "la fresque de kingsbridge_1 les piliers de la terre \"ellen\"",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0348",
-      "auteur": "FOLLETT Ken",
-      "titre": "la fresque de kingsbridge_2 les piliers de la terre \"aliena\"",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0349",
-      "auteur": "FOLLETT Ken",
-      "titre": "la fresque de kingsbridge_3 une colonne de feu",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0350",
-      "auteur": "FOLLETT Ken",
-      "titre": "la fresque de kingsbridge_4 le crépuscule de l'aube",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0351",
-      "auteur": "FOLLETT Ken",
-      "titre": "le siècle : tome 1 la chute des géants",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0352",
-      "auteur": "FOLLETT Ken",
-      "titre": "le siècle : tome 2 l'hiver du monde",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0353",
-      "auteur": "FOLLETT Ken",
-      "titre": "le siècle : tome 3 aux portes de l'éternité",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0354",
-      "auteur": "FOUASSIER Eric",
-      "titre": "le bureau des affaires occultes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0355",
-      "auteur": "FOUASSIER Eric",
-      "titre": "les nuits de la peur bleue",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0356",
-      "auteur": "FRENCH Nicci",
-      "titre": "le jour des saints",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0357",
-      "auteur": "FYFIELD Frances",
-      "titre": "le fond de l'impasse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0358",
-      "auteur": "FYFIELD Frances",
-      "titre": "un cas de conscience",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0359",
-      "auteur": "GABALDON Diana",
-      "titre": "outlander",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0360",
-      "auteur": "GABALDON Diana",
-      "titre": "le chardon et le tartan",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0361",
-      "auteur": "GABALDON Diana",
-      "titre": "le voyage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0362",
-      "auteur": "GAGNON-THIBAUDEAU Marthe",
-      "titre": "la boiteuse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0363",
-      "auteur": "GAGNON-THIBAUDEAU Marthe",
-      "titre": "le bal de coton",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0364",
-      "auteur": "GALABRAITH Robert",
-      "titre": "blanc mortel",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0365",
-      "auteur": "GAMARRA Pierre",
-      "titre": "le maître d'école_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0366",
-      "auteur": "GAMARRA Pierre",
-      "titre": "le maître d'école_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0367",
-      "auteur": "GARDNER Lisa",
-      "titre": "juste derrière moi",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0368",
-      "auteur": "GARDNER Lisa",
-      "titre": "la maison d'à coté",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0369",
-      "auteur": "GARDNER Lisa",
-      "titre": "les morsures du passé",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0370",
-      "auteur": "GARDNER Lisa",
-      "titre": "sauver sa peau",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0371",
-      "auteur": "GAVALDA Anna",
-      "titre": "fendre l'armure",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0372",
-      "auteur": "GAY Marie-Claude",
-      "titre": "le passant du bois de lune",
-      "statut": "Lu",
-      "avis/note": "**"
-    },
-    {
-      "id": "L-0373",
-      "auteur": "GENEFORT Laurent",
-      "titre": "alaet l'insouciant",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0374",
-      "auteur": "GENTLE Marie",
-      "titre": "livre de cendre_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0375",
-      "auteur": "GENTLE Marie",
-      "titre": "livre de cendre_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0376",
-      "auteur": "GENTLE Marie",
-      "titre": "livre de cendre_3",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0377",
-      "auteur": "GENTLE Marie",
-      "titre": "livre de cendre_4",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0378",
-      "auteur": "GEORGE Elizabeth",
-      "titre": "la punition qu'elle mérite",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0379",
-      "auteur": "GEORGE Elizabeth",
-      "titre": "le cortège de la mort",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0380",
-      "auteur": "GEORGE Elizabeth",
-      "titre": "mortels péchés",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0381",
-      "auteur": "GEORGES Gérard",
-      "titre": "les chemins d'améthyste",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0382",
-      "auteur": "GEORGES Gérard",
-      "titre": "la demoiselle aux fleurs sauvages",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0383",
-      "auteur": "GERBAUD Laure",
-      "titre": "racines mêlées",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0384",
-      "auteur": "GESTERN Hélène",
-      "titre": "cézembre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0385",
-      "auteur": "GHANEM Océane",
-      "titre": "bienvenue à lafayette",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0386",
-      "auteur": "GIARD Michel",
-      "titre": "un soir de bonheur",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0387",
-      "auteur": "GIARD Michel",
-      "titre": "le tulipier de marie-antoinette",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0388",
-      "auteur": "GIEBEL Karine",
-      "titre": "juste une ombre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0389",
-      "auteur": "GIEBEL Karine",
-      "titre": "meurtre pour rédemption",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0390",
-      "auteur": "GIEBEL Karine",
-      "titre": "d'ombre et de silence",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0391",
-      "auteur": "GIEBEL Karine",
-      "titre": "purgatoire des innocents",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0392",
-      "auteur": "GIEBEL Karine",
-      "titre": "toutes blessent, la dernière tue",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0393",
-      "auteur": "GIEBEL Karine",
-      "titre": "jusqu'à ce que la mort nous unisse",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0394",
-      "auteur": "GIEBEL Karine",
-      "titre": "de force",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0395",
-      "auteur": "GIESBERT Jean-Cristophe",
-      "titre": "les moulins d'amérique_1, le fils de saint-jean",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0396",
-      "auteur": "GIESBERT Jean-Cristophe",
-      "titre": "les moulins d'amérique_2, l'ange de springswood",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0397",
-      "auteur": "GIORDANO Raphaëlle",
-      "titre": "heureux les fêlés car ils laissent passer la lumière",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0398",
-      "auteur": "GLATT Gérard",
-      "titre": "les sœurs ferrandon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0399",
-      "auteur": "GLEIZE Geoges-Patrick",
-      "titre": "les sentiers pastelliers",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0400",
-      "auteur": "GLEIZE Geoges-Patrick",
-      "titre": "le crépuscule des justes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0401",
-      "auteur": "GOODKIND Terry",
-      "titre": "les chroniques de nicci",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0402",
-      "auteur": "GOODKIND Terry",
-      "titre": "la maîtresse de la mort",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0403",
-      "auteur": "GOODKIND Terry",
-      "titre": "le linceul de l'éternité",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0404",
-      "auteur": "GOODKIND Terry",
-      "titre": "le siècle de pierre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0405",
-      "auteur": "GOODKIND Terry",
-      "titre": "cœur de glace noire",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0406",
-      "auteur": "GORNICHEC Geneviève",
-      "titre": "cœur de sorcière",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0407",
-      "auteur": "GOUGAUD Henri",
-      "titre": "l'enfant de la neige",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0408",
-      "auteur": "GOUGEON Richard",
-      "titre": "le bonheur des autres",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0409",
-      "auteur": "GOUNELLE Laurent",
-      "titre": "le jour où j'ai appris à vivre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0410",
-      "auteur": "GOUNELLE Laurent",
-      "titre": "la vie est une grande aventure",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0411",
-      "auteur": "GOUNELLE Laurent",
-      "titre": "un monde presque parfait",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0412",
-      "auteur": "GOUNELLE Laurent",
-      "titre": "je te promets la liberté",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0413",
-      "auteur": "GOUNELLE Laurent",
-      "titre": "le philosophe qui n'était pas sage",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0414",
-      "auteur": "GRAHAM Patrick",
-      "titre": "des fauves et des hommes",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0415",
-      "auteur": "GRANDES Almudena",
-      "titre": "les trois mariages de manolita",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0416",
-      "auteur": "GRANGE Jean-Cristophe",
-      "titre": "les rivières pourpre",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0417",
-      "auteur": "GREEN Emma",
-      "titre": "le goût de nos rêves",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0418",
-      "auteur": "GREEN Emma",
-      "titre": "dix bonnes raisons de te détester",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0419",
-      "auteur": "GREEN Emma",
-      "titre": "si les étoiles se taisent",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0420",
-      "auteur": "GREEN Emma",
-      "titre": "à nos cœurs battants",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0421",
-      "auteur": "GREEN Simon Richard",
-      "titre": "hawk et fisher_1",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0422",
-      "auteur": "GREEN Simon Richard",
-      "titre": "hawk et fisher_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0423",
-      "auteur": "GREEN Simon Richard",
-      "titre": "hawk et fisher_3",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0424",
-      "auteur": "GREGOIRE Amélie",
-      "titre": "l'enfant du sud",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0425",
-      "auteur": "GRIFFITHS Elly",
-      "titre": "les disparues du marais",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0426",
-      "auteur": "GRIMALDI Virginie",
-      "titre": "tu comprendras quand tu seras plus granded",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0427",
-      "auteur": "GRIMALDI Virginie",
-      "titre": "et que ne durent que les momments doux",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0428",
-      "auteur": "GRIMALDI Virginie",
-      "titre": "il nous restera ça",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0429",
-      "auteur": "GRIMALDI Virginie",
-      "titre": "le parfum du bonheur est plus fort que la pluie",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0430",
-      "auteur": "GRISHAM John",
-      "titre": "le manipulateur",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0431",
-      "auteur": "GRISHAM John",
-      "titre": "le droit au pardon",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0432",
-      "auteur": "GROSSMAN Lev",
-      "titre": "la terre des magiciens",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0433",
-      "auteur": "GROSSMAN Lev",
-      "titre": "le roi magicien",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0434",
-      "auteur": "GUILCHER Armelle",
-      "titre": "les amoureux de l'ile saint paul",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0435",
-      "auteur": "GUTCHEON Beth",
-      "titre": "avis de recherche",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0436",
-      "auteur": "GUTIERREZ Monica",
-      "titre": "la librairie de monsieur livingstone",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0437",
-      "auteur": "GWYNNE John",
-      "titre": "le temps de la terreur",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0438",
-      "auteur": "GWYNNE John",
-      "titre": "Le temps du sang_2",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0439",
-      "auteur": "KELMAN James",
-      "titre": "La route de Lafayette",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0440",
-      "auteur": "O'GORMAN Sian",
-      "titre": "Un diner à Sandycove",
-      "statut": "Lu",
-      "avis/note": ""
-    },
-    {
-      "id": "L-0441",
-      "auteur": "SIRE Cédric",
-      "titre": "déchirures",
-      "statut": "Lu",
-      "avis/note": ""
-    }
-  ]
+[
+  {
+    "id": "L-0007",
+    "auteur": "ADLER Elisabeth",
+    "titre": "à coeur perdu",
+    "statut": "À lire",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0008",
+    "auteur": "ADLER Elisabeth",
+    "titre": "hotel riviera",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0009",
+    "auteur": "ADLER Elisabeth",
+    "titre": "les pièges du passé",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0010",
+    "auteur": "ADLER Elisabeth",
+    "titre": "l'ombre du destin",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0011",
+    "auteur": "AGUETANT Pierre",
+    "titre": "la terre qui vit_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0012",
+    "auteur": "AGUETANT Pierre",
+    "titre": "la terre qui vit_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0013",
+    "auteur": "ALAUX Jean-Pierre",
+    "titre": "médoc sur ordonnance",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0014",
+    "auteur": "ALEXANDRA Belinda",
+    "titre": "le gardénia blanc",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0015",
+    "auteur": "ALEXANDRA Belinda",
+    "titre": "un doux parfum de lavande",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0016",
+    "auteur": "ALEXIE Sheman",
+    "titre": "indian killer",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0017",
+    "auteur": "ALLENDE Isabel",
+    "titre": "la cité des dieux sauvages",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0018",
+    "auteur": "ALLENDE Isabel",
+    "titre": "le jeu de ripper_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0019",
+    "auteur": "ALSTERDAL Tove",
+    "titre": "dans le silence enterré",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0020",
+    "auteur": "AMANI Sandra",
+    "titre": "les mystères du nivernais",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0021",
+    "auteur": "ANGLADE Jean",
+    "titre": "dans le secret des roseaux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0022",
+    "auteur": "ANGLADE Jean",
+    "titre": "le faucheur d'ombres",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0023",
+    "auteur": "ANNE Sylvie",
+    "titre": "la lavandière de saint léger",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0024",
+    "auteur": "ANTOINE Amélie",
+    "titre": "le jour où",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0025",
+    "auteur": "ARMAND Marie-Paul",
+    "titre": "nouvelles du nord",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0026",
+    "auteur": "ARMSTRONG Kelley",
+    "titre": "apparition_90",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0027",
+    "auteur": "ARMSTRONG Kelley",
+    "titre": "magie de pacotille_3",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0028",
+    "auteur": "ARMSTRONG Kelley",
+    "titre": "morsure_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0029",
+    "auteur": "ARTIGES Isabelle",
+    "titre": "une vie de porcelaine",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0030",
+    "auteur": "ASTRABIE Sophie",
+    "titre": "la chance de sa vie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0031",
+    "auteur": "ASTRABIE Sophie",
+    "titre": "le secret de jeanne",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0032",
+    "auteur": "ASTRABIE Sophie",
+    "titre": "les bruits du souvenir",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0033",
+    "auteur": "AUBERT Brigitte",
+    "titre": "la mort des bois",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0034",
+    "auteur": "AUCOUTURIER Alain",
+    "titre": "le milhar aux guignes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0035",
+    "auteur": "BARBERAT Angélique",
+    "titre": "et maintenant",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0036",
+    "auteur": "BARDUGO Leigh",
+    "titre": "le familier",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0037",
+    "auteur": "BARON Sylvie",
+    "titre": "impasse des demoiselles",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0038",
+    "auteur": "BARON Sylvie",
+    "titre": "le silence des hautes terres",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0039",
+    "auteur": "BARON Sylvie",
+    "titre": "l'héritière des fajoux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0040",
+    "auteur": "BARRAL René",
+    "titre": "la liberté des enfants perdus",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0041",
+    "auteur": "BARRAL René",
+    "titre": "l'enfant secret de la borie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0042",
+    "auteur": "BARROWS Annie",
+    "titre": "le secret de la manufacture de chaussettes inusables",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0043",
+    "auteur": "BAUDIN Cécile",
+    "titre": "la constance de la louve",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0044",
+    "auteur": "BAUWEN Patrick",
+    "titre": "seul à savoir",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0045",
+    "auteur": "BELL David",
+    "titre": "la fille oubliée",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0046",
+    "auteur": "BENOILID Aurélien, NISSAND Maud",
+    "titre": "ce qui fait briller les étoiles",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0047",
+    "auteur": "BENZONI Juliette",
+    "titre": "les joyaux de la sorcière",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0048",
+    "auteur": "BEORN Paul",
+    "titre": "calame_1 les deux visages",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0049",
+    "auteur": "BERDUGAT Janine",
+    "titre": "les secrets de lise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0050",
+    "auteur": "BERLANDA Thierrry",
+    "titre": "déviation nord",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0051",
+    "auteur": "BERNIER Henriette",
+    "titre": "les ombres de l'enfance",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0052",
+    "auteur": "BERTHIER Cécile",
+    "titre": "la maison de la croix de pierre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0053",
+    "auteur": "BICKMORE Barbara",
+    "titre": "au cœur de la vie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0054",
+    "auteur": "BIVALD Katarina",
+    "titre": "La bibliothèque des cœurs cabossés",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0055",
+    "auteur": "BIVALD Katarina",
+    "titre": "Le jour où Anita envoya tout balader",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0056",
+    "auteur": "BLEUVENN Tiphaine",
+    "titre": "sylphide",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0057",
+    "auteur": "BOISSARD Janine",
+    "titre": "allez france",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0058",
+    "auteur": "BOISSARD Janine",
+    "titre": "belle arrière grand mère",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0059",
+    "auteur": "BOISSARD Janine",
+    "titre": "chuuut !",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0060",
+    "auteur": "BOISSARD Janine",
+    "titre": "elle parlait aux fleurs",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0061",
+    "auteur": "BOISSARD Janine",
+    "titre": "histoire d'amour",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0062",
+    "auteur": "BOISSARD Janine",
+    "titre": "la chaloupe",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0063",
+    "auteur": "BOISSARD Janine",
+    "titre": "laisse moi le dire",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0064",
+    "auteur": "BOISSARD Janine",
+    "titre": "le talisman",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0065",
+    "auteur": "BOISSARD Janine",
+    "titre": "puisque tu m'aimes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0066",
+    "auteur": "BOISSARD Janine",
+    "titre": "quand la belle se réveillera",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0067",
+    "auteur": "BOISSARD Janine",
+    "titre": "roses de sang roses d'ouessant",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0068",
+    "auteur": "BOISSARD Janine",
+    "titre": "une femme neuve",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0069",
+    "auteur": "BOISSEL Catherine",
+    "titre": "la sorcière sur la falaise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0070",
+    "auteur": "BOITEUX Marie-Thérèse",
+    "titre": "le secret de louise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0071",
+    "auteur": "BOLGER Dermot",
+    "titre": "toute la famille sur la jetée du paradis",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0072",
+    "auteur": "BORDAGE Pierre",
+    "titre": "cité",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0073",
+    "auteur": "BORDAGE Pierre",
+    "titre": "rive droite",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0074",
+    "auteur": "BORDAGE Pierre",
+    "titre": "rive gauche",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0075",
+    "auteur": "BORDES Gilbert",
+    "titre": "chante rossignol",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0076",
+    "auteur": "BORDES Gilbert",
+    "titre": "la neige fond toujours au printemps",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0077",
+    "auteur": "BORDES Gilbert",
+    "titre": "le testament d'adrien",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0078",
+    "auteur": "BORDES Gilbert",
+    "titre": "les enfants de l'hiver",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0079",
+    "auteur": "BOSSUGE Micheline",
+    "titre": "la maison d'anaïs",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0080",
+    "auteur": "BOUHELIER Clément",
+    "titre": "olangar",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0081",
+    "auteur": "BOURDIN Françoise",
+    "titre": "comme un frère",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0082",
+    "auteur": "BOURDIN Françoise",
+    "titre": "dans le silence de l'autre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0083",
+    "auteur": "BOURDIN Françoise",
+    "titre": "dans les bras d'ariane",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0084",
+    "auteur": "BOURDIN Françoise",
+    "titre": "d'eau et de feu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0085",
+    "auteur": "BOURDIN Françoise",
+    "titre": "face à la mer",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0086",
+    "auteur": "BOURDIN Françoise",
+    "titre": "hors saison",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0087",
+    "auteur": "BOURDIN Françoise",
+    "titre": "la camarguaise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0088",
+    "auteur": "BOURDIN Françoise",
+    "titre": "le choix des autres",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0089",
+    "auteur": "BOURDIN Françoise",
+    "titre": "le choix d'une femme libre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0090",
+    "auteur": "BOURDIN Françoise",
+    "titre": "les années passion",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0091",
+    "auteur": "BOURDIN Françoise",
+    "titre": "les bois de battandières",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0092",
+    "auteur": "BOURDIN Françoise",
+    "titre": "les sirènes de saint-malo",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0093",
+    "auteur": "BOURDIN Françoise",
+    "titre": "l'homme de leur vie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0094",
+    "auteur": "BOURDIN Françoise",
+    "titre": "l'inconnue de peyrolles",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0095",
+    "auteur": "BOURDIN Françoise",
+    "titre": "objet de toutes les convoitises",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0096",
+    "auteur": "BOURDIN Françoise",
+    "titre": "quelqu'un de bien",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0097",
+    "auteur": "BOURDIN Françoise",
+    "titre": "sans regret",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0098",
+    "auteur": "BOURDIN Françoise",
+    "titre": "un mariage d'amour",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0099",
+    "auteur": "BOURDIN Françoise",
+    "titre": "une nouvelle vie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0100",
+    "auteur": "BOURDON Françoise",
+    "titre": "à travers la nuit et le vent",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0101",
+    "auteur": "BOURDON Françoise",
+    "titre": "la fontaine aux violettes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0102",
+    "auteur": "BOURDON Françoise",
+    "titre": "la maison de charlotte",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0103",
+    "auteur": "BOURDON Françoise",
+    "titre": "la maison de violette",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0104",
+    "auteur": "BOURDON Françoise",
+    "titre": "la roche aux loups",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0105",
+    "auteur": "BOURDON Françoise",
+    "titre": "le secret de belle épine",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0106",
+    "auteur": "BOURDON Françoise",
+    "titre": "les sentiers de l'aube",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0107",
+    "auteur": "BOURDON Françoise",
+    "titre": "retour au pays bleu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0108",
+    "auteur": "BOURDON Françoise",
+    "titre": "si loin si proche",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0109",
+    "auteur": "BOYD William",
+    "titre": "la vie aux aguets",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0110",
+    "auteur": "BOYDEN Joseph",
+    "titre": "la-haut vers le nord",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0111",
+    "auteur": "BOYNE John",
+    "titre": "les fureurs invisibles du cœur",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0112",
+    "auteur": "BRASEY Edouard",
+    "titre": "la ferme aux maléfices",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0113",
+    "auteur": "BREAR Anne-Marie",
+    "titre": "avec espoir pour horizon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0114",
+    "auteur": "BREAR Anne-Marie",
+    "titre": "le domaine de berrima",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0115",
+    "auteur": "BREUZÉ Patrick",
+    "titre": "la jeune fille qui déplaçait les montagnes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0116",
+    "auteur": "BREUZÉ Patrick",
+    "titre": "la montagne pour refuge",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0117",
+    "auteur": "BRIEUC Michelle",
+    "titre": "un horizon à part",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0118",
+    "auteur": "BROCKOLE Jessica",
+    "titre": "une lettre de vous",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0119",
+    "auteur": "BROOCHMITT Adella Jane",
+    "titre": "les maux que nous taisons",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0120",
+    "auteur": "BROPER Mélissa",
+    "titre": "sous le signe des poissons",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0121",
+    "auteur": "BROSSARD LEGRAND Monique",
+    "titre": "elise des montagnes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0122",
+    "auteur": "BROWN Sandra",
+    "titre": "jalouse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0123",
+    "auteur": "BUSSI Michel",
+    "titre": "le temps est assassin",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0124",
+    "auteur": "BUSSI Michel",
+    "titre": "maman a tort",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0125",
+    "auteur": "BUSSI Michel",
+    "titre": "n'oublie jamais",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0126",
+    "auteur": "BUSSI Michel",
+    "titre": "rien ne t'efface",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0127",
+    "auteur": "BUSSI Michel",
+    "titre": "sang famille",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0128",
+    "auteur": "BUSSI Michel",
+    "titre": "un avion sans elle",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0129",
+    "auteur": "CALIDAS Tamsin",
+    "titre": "je suis une île",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0130",
+    "auteur": "CALMEL Mireille",
+    "titre": "d'écume et de sang",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0131",
+    "auteur": "CALMEL Mireille",
+    "titre": "la marquise de sade",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0132",
+    "auteur": "CALMEL Mireille",
+    "titre": "la prisonnière du diable",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0133",
+    "auteur": "CALMEL Mireille",
+    "titre": "la rivière des âmes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0134",
+    "auteur": "CALMEL Mireille",
+    "titre": "lady pirate",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0135",
+    "auteur": "CALMEL Mireille",
+    "titre": "le bal des louves_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0136",
+    "auteur": "CALMEL Mireille",
+    "titre": "le bal des louves_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0137",
+    "auteur": "CALMEL Mireille",
+    "titre": "le secret de margaux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0138",
+    "auteur": "CALMEL Mireille",
+    "titre": "le templier de l'ombre_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0139",
+    "auteur": "CALMEL Mireille",
+    "titre": "le templier de l'ombre_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0140",
+    "auteur": "CALMEL Mireille",
+    "titre": "l'or maudit",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0141",
+    "auteur": "CAMAILLE Serge",
+    "titre": "du sang sur la neige",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0142",
+    "auteur": "CAMILLERI Andréa",
+    "titre": "le cuisinier de l'alcyon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0143",
+    "auteur": "CARAYON Christian",
+    "titre": "les saisons d'après",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0144",
+    "auteur": "CARBONI Cristina",
+    "titre": "la souffleuse du temps",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0145",
+    "auteur": "CARBONI Cristina",
+    "titre": "une vie entre les pages",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0146",
+    "auteur": "CARIO Daniel",
+    "titre": "une cité si tranquille",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0147",
+    "auteur": "CARLES Emilie",
+    "titre": "une soupe aux herbes sauvages",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0148",
+    "auteur": "CARMONA Marie-Béatrice",
+    "titre": "deux femmes pour un orient",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0149",
+    "auteur": "CARR Robyn",
+    "titre": "attirance-5",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0150",
+    "auteur": "CARR Robyn",
+    "titre": "virginie river",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0151",
+    "auteur": "CASHORE Kristin",
+    "titre": "bitterblue",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0152",
+    "auteur": "CASS Kiera",
+    "titre": "la sélection",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0153",
+    "auteur": "CASS Kiera",
+    "titre": "l'élite",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0154",
+    "auteur": "CASS Kiera",
+    "titre": "l'élue",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0155",
+    "auteur": "CATT Elle",
+    "titre": "la dernière muse_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0156",
+    "auteur": "CATT Elle",
+    "titre": "la dernière muse_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0157",
+    "auteur": "CAVANNA François",
+    "titre": "coups de sang",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0158",
+    "auteur": "CAVANNA François",
+    "titre": "le con se surpasse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0159",
+    "auteur": "CERRUTI Fabien",
+    "titre": "kosigan",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0160",
+    "auteur": "CERRUTI Fabien",
+    "titre": "un printemps de sang",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0161",
+    "auteur": "CHALAYER Maurice",
+    "titre": "les neiges du mont argental",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0162",
+    "auteur": "CHAUVEAU Sophie",
+    "titre": "noces de charbon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0163",
+    "auteur": "CHAUVY Véronique",
+    "titre": "l'éclair d'argent",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0164",
+    "auteur": "CHEVALIER Vanessa",
+    "titre": "l'enfant de la colère",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0165",
+    "auteur": "CLANCHY Kate",
+    "titre": "crème anglaise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0166",
+    "auteur": "CLARE Lucy",
+    "titre": "un bonheur inattendu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0167",
+    "auteur": "CLARKE Rosie",
+    "titre": "les demoiselles d'oxford street_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0168",
+    "auteur": "CLARKE Rosie",
+    "titre": "les demoiselles d'oxford street_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0169",
+    "auteur": "COATES Ta-Nehisi",
+    "titre": "la danse de l'eau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0170",
+    "auteur": "COATMEUR Jean-François",
+    "titre": "l'ouest barbare",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0171",
+    "auteur": "COBEN Harlan",
+    "titre": "à découvert",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0172",
+    "auteur": "COBEN Harlan",
+    "titre": "à quelques secondes près",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0173",
+    "auteur": "COBEN Harlan",
+    "titre": "à toute épreuve",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0174",
+    "auteur": "COBEN Harlan",
+    "titre": "dans les bois",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0175",
+    "auteur": "COBEN Harlan",
+    "titre": "double piège",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0176",
+    "auteur": "COBEN Harlan",
+    "titre": "du sang sur le green",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0177",
+    "auteur": "COBEN Harlan",
+    "titre": "faute de preuves",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0178",
+    "auteur": "COBEN Harlan",
+    "titre": "gagner n'est pas jouer",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0179",
+    "auteur": "COBEN Harlan",
+    "titre": "intimidation",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0180",
+    "auteur": "COBEN Harlan",
+    "titre": "juste un regard",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0181",
+    "auteur": "COBEN Harlan",
+    "titre": "l'inconnu de la forêt",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0182",
+    "auteur": "COBEN Harlan",
+    "titre": "méfie toi",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0183",
+    "auteur": "COBEN Harlan",
+    "titre": "ne t'éloigne pasidentités croisées",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0184",
+    "auteur": "COBEN Harlan",
+    "titre": "ne t'enfuis plus",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0185",
+    "auteur": "COBEN Harlan",
+    "titre": "par accident",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0186",
+    "auteur": "COBEN Harlan",
+    "titre": "promets moi",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0187",
+    "auteur": "COBEN Harlan",
+    "titre": "sans défense",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0188",
+    "auteur": "COBEN Harlan",
+    "titre": "sans un adieu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0189",
+    "auteur": "COBEN Harlan",
+    "titre": "six ans déjà",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0190",
+    "auteur": "COBEN Harlan",
+    "titre": "sous haute tension",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0191",
+    "auteur": "COBEN Harlan",
+    "titre": "sur tes traces",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0192",
+    "auteur": "COBEN Harlan",
+    "titre": "temps mort",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0193",
+    "auteur": "COBEN Harlan",
+    "titre": "tu me manques",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0194",
+    "auteur": "COLGAN Jenny",
+    "titre": "au delà des nuages",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0195",
+    "auteur": "COLGAN Jenny",
+    "titre": "de fil en aiguille",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0196",
+    "auteur": "COLGAN Jenny",
+    "titre": "la charmante librairie des jours heureux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0197",
+    "auteur": "COLGAN Jenny",
+    "titre": "les confiseries de rosie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0198",
+    "auteur": "COLGAN Jenny",
+    "titre": "l'hotel du bord de l'eau sous la neige",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0199",
+    "auteur": "COLGAN Jenny",
+    "titre": "un mariage au bord de l'eau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0200",
+    "auteur": "COLGAN Jenny",
+    "titre": "une rencontre au bord de l'eau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0201",
+    "auteur": "COLLETTE Sandrine",
+    "titre": "et toujours les forêts",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0202",
+    "auteur": "COMBES Bruno",
+    "titre": "ce que je n'oserai jamais te dire",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0203",
+    "auteur": "COMMERE Hervé",
+    "titre": "sauf",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0204",
+    "auteur": "CONAN James",
+    "titre": "dans l'ombre de la ville",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0205",
+    "auteur": "CONDÉ Maryse",
+    "titre": "les saveurs et les mots",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0206",
+    "auteur": "CONNELY Mickael",
+    "titre": "echo park",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0207",
+    "auteur": "CONNOLY John",
+    "titre": "la nuit des corbeaux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0208",
+    "auteur": "CONNOLY John",
+    "titre": "le chant des dunes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0209",
+    "auteur": "COOK Robin",
+    "titre": "erreur fatale",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0210",
+    "auteur": "COPLETON Jackie",
+    "titre": "la voix des vagues",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0211",
+    "auteur": "CORDOUAN Manuel",
+    "titre": "la carte maitresse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0212",
+    "auteur": "CORGIAT Sylviane, LECIGNE Bruno",
+    "titre": "le jeu de la trame",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0213",
+    "auteur": "CORNAILLE Didier",
+    "titre": "adam en héritage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0214",
+    "auteur": "CORNAILLE Didier",
+    "titre": "étrangers à la terre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0215",
+    "auteur": "CORNAILLE Didier",
+    "titre": "le chemin de la ronceraie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0216",
+    "auteur": "CORNAILLE Didier",
+    "titre": "sur les cendres des ronces",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0217",
+    "auteur": "CORNWELL Patricia",
+    "titre": "affaire classée",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0218",
+    "auteur": "CORNWELL Patricia",
+    "titre": "autopsie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0219",
+    "auteur": "CORNWELL Patricia",
+    "titre": "baton rouge",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0220",
+    "auteur": "CORNWELL Patricia",
+    "titre": "cadavre x",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0221",
+    "auteur": "CORNWELL Patricia",
+    "titre": "chaos",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0222",
+    "auteur": "CORNWELL Patricia",
+    "titre": "combustion",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0223",
+    "auteur": "CORNWELL Patricia",
+    "titre": "havre des morts",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0224",
+    "auteur": "CORNWELL Patricia",
+    "titre": "inhumaine",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0225",
+    "auteur": "CORNWELL Patricia",
+    "titre": "jack l'éventreur",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0226",
+    "auteur": "CORNWELL Patricia",
+    "titre": "la griffe du sud",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0227",
+    "auteur": "CORNWELL Patricia",
+    "titre": "la séquence des corps",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0228",
+    "auteur": "CORNWELL Patricia",
+    "titre": "l'instinct du mal",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0229",
+    "auteur": "CORNWELL Patricia",
+    "titre": "livide",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0230",
+    "auteur": "CORNWELL Patricia",
+    "titre": "monnaie de sang",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0231",
+    "auteur": "CORNWELL Patricia",
+    "titre": "mordoc",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0232",
+    "auteur": "CORNWELL Patricia",
+    "titre": "morts en eaux troubles",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0233",
+    "auteur": "CORNWELL Patricia",
+    "titre": "orbite",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0234",
+    "auteur": "CORNWELL Patricia",
+    "titre": "post mortem",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0235",
+    "auteur": "CORNWELL Patricia",
+    "titre": "registre des morts",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0236",
+    "auteur": "CORNWELL Patricia",
+    "titre": "scarpetta",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0237",
+    "auteur": "CORNWELL Patricia",
+    "titre": "tolérance zéro",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0238",
+    "auteur": "CORNWELL Patricia",
+    "titre": "trainée de poudre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0239",
+    "auteur": "CORNWELL Patricia",
+    "titre": "une mort sans nom",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0240",
+    "auteur": "CORNWELL Patricia",
+    "titre": "une peine d'exception",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0241",
+    "auteur": "CORNWELL Patricia",
+    "titre": "vent de glace",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0242",
+    "auteur": "CORNWELL Patricia",
+    "titre": "voile rouge",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0243",
+    "auteur": "COSBY Shawn André",
+    "titre": "les routes oubliées",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0244",
+    "auteur": "COSTELOE Diney",
+    "titre": "les enfants de sainte croix",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0245",
+    "auteur": "COTTER Erin",
+    "titre": "un cœur déloyal",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0246",
+    "auteur": "COVIN Alec",
+    "titre": "les loups de fenryder",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0247",
+    "auteur": "CROMBIE Deborah",
+    "titre": "mort sur la tamise",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0248",
+    "auteur": "CROZES Daniel",
+    "titre": "la fille de la ramière",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0249",
+    "auteur": "CROZES Daniel",
+    "titre": "le bal des gueules noires",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0250",
+    "auteur": "CROZES Daniel",
+    "titre": "le rebouteux des montagnes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0251",
+    "auteur": "DA COSTA Mélissa",
+    "titre": "la doublure",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0252",
+    "auteur": "DA COSTA Mélissa",
+    "titre": "les lendemains",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0253",
+    "auteur": "DA COSTA Mélissa",
+    "titre": "tenir debout",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0254",
+    "auteur": "DA COSTA Mélissa",
+    "titre": "tout le bleu du ciel",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0255",
+    "auteur": "D'ADAMO Ada",
+    "titre": "Daria",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0256",
+    "auteur": "DALBAN-MOREYNAS Géraldine",
+    "titre": "elle voulait juste être heureuse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0257",
+    "auteur": "D'AMATO Barbara",
+    "titre": "avant qu'il ne soit trop tard",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0258",
+    "auteur": "DANIELS Lucy",
+    "titre": "un hiver inoubliable à vert-cottage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0259",
+    "auteur": "DANIELS Lucy",
+    "titre": "un printemps éblouissant à vert-cottage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0260",
+    "auteur": "DAOUD Kamel",
+    "titre": "houris",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0261",
+    "auteur": "DAVE Laura",
+    "titre": "dernières vendanges",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0262",
+    "auteur": "DAVIDSON Andy",
+    "titre": "la fille du batelier",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0263",
+    "auteur": "DE BROC Nathalie",
+    "titre": "la sorcière de locronan",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0264",
+    "auteur": "DE BROC Nathalie",
+    "titre": "les étés de grandes maisons",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0265",
+    "auteur": "DE BROCA Alexandra",
+    "titre": "la princesse effacée",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0266",
+    "auteur": "DE BROCA Alexandra",
+    "titre": "la soeur du roi",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0267",
+    "auteur": "DE CARLO Andréa",
+    "titre": "deux sur deux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0268",
+    "auteur": "DE HARRIBA Suzanne",
+    "titre": "un ange égaré sur terre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0269",
+    "auteur": "DE HARRIBA Suzanne",
+    "titre": "un hiver pour aimer",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0270",
+    "auteur": "DE PALET Marie",
+    "titre": "jeanne courage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0271",
+    "auteur": "DE PALET Marie",
+    "titre": "la tondue",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0272",
+    "auteur": "DE PALET Marie",
+    "titre": "le destin de marie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0273",
+    "auteur": "DE PALET Marie",
+    "titre": "mademoiselle fine",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0274",
+    "auteur": "DE PLACE Madeleine",
+    "titre": "qui sauve une vie sauve le monde",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0275",
+    "auteur": "DE SÉE Julie-Anne",
+    "titre": "au-delà des mères",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0276",
+    "auteur": "DEBRIFFE Martial",
+    "titre": "les peyries",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0277",
+    "auteur": "DEBURON Nicole",
+    "titre": "dix jours de rêve",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0278",
+    "auteur": "DEBURON Nicole",
+    "titre": "vas y maman",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0279",
+    "auteur": "DEGHELT Frédérique",
+    "titre": "les brumes de l'apparence",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0280",
+    "auteur": "DEGHELT Frédérique",
+    "titre": "libertango",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0281",
+    "auteur": "DEGROOTE Annie",
+    "titre": "des cendres sur nos cœurs",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0282",
+    "auteur": "DELACOURT Grégoire",
+    "titre": "la liste de mes envies",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0283",
+    "auteur": "DELMAS Bénédicte",
+    "titre": "jeanne la rebelle de dieu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0284",
+    "auteur": "DELOMME Martine",
+    "titre": "le pacte du silence",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0285",
+    "auteur": "DELOMME Martine",
+    "titre": "l'impossible pardon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0286",
+    "auteur": "DESOMBRE Daria",
+    "titre": "les disparues du tableau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0287",
+    "auteur": "DESPLAT DUC Anne-Marie",
+    "titre": "les héritiers de la bise_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0288",
+    "auteur": "DESPLAT DUC Anne-Marie",
+    "titre": "les héritiers de la bise_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0289",
+    "auteur": "DESROCHERS Suzanne",
+    "titre": "les filles du nouveau monde",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0290",
+    "auteur": "D'ESTIENNE D'ORVE Nicolas",
+    "titre": "l'enfant du premier matin",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0291",
+    "auteur": "DEWDNEY Patrick K.",
+    "titre": "la peste et la vigne",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0292",
+    "auteur": "DEWDNEY Patrick K.",
+    "titre": "l'enfant de poussière",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0293",
+    "auteur": "DEWDNEY Patrick K.",
+    "titre": "les chiens et la charrue",
+    "statut": "Lu",
+    "avis/note": "***"
+  },
+  {
+    "id": "L-0294",
+    "auteur": "DIXEN Victor",
+    "titre": "la promise_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0295",
+    "auteur": "DIXEN Victor",
+    "titre": "la promise_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0296",
+    "auteur": "DIXEN Victor",
+    "titre": "les mystères d'eversand",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0297",
+    "auteur": "DIXEN Victor",
+    "titre": "les mystères d'eversand tome 3 : l'épouse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0298",
+    "auteur": "DIXEN Victor",
+    "titre": "les mystères d'eversand tome 4 : l'hérétique",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0299",
+    "auteur": "DONGALA Emmanuel",
+    "titre": "la sonate à bridgetower_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0300",
+    "auteur": "DONGALA Emmanuel",
+    "titre": "la sonate à bridgetower_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0301",
+    "auteur": "DORIN Françoise",
+    "titre": "le cœur à deux places",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0302",
+    "auteur": "DRECOURT Aurore",
+    "titre": "la fille destinée des kerdelec",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0303",
+    "auteur": "DRECOURT Aurore",
+    "titre": "un secret bien gardé",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0304",
+    "auteur": "DROUIN Dominique",
+    "titre": "de mère en fille tome 1 : alice",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0305",
+    "auteur": "DROUIN Dominique",
+    "titre": "de mère en fille tome 2 : ariane",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0306",
+    "auteur": "DROUIN Dominique",
+    "titre": "de mère en fille tome 3 : anaïs",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0307",
+    "auteur": "DROUIN Dominique",
+    "titre": "de mère en fille tome 4 : ava",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0308",
+    "auteur": "DUBOS Alain",
+    "titre": "constance et la ville d'hiver",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0309",
+    "auteur": "DUCLOZ Albert",
+    "titre": "le chant d'aurore",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0310",
+    "auteur": "DUCLOZ Albert",
+    "titre": "le violon d'or",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0311",
+    "auteur": "DUFF Micheline",
+    "titre": "d'un silence à l'autre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0312",
+    "auteur": "DUFF Micheline",
+    "titre": "la lumière des mots",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0313",
+    "auteur": "DUFF Micheline",
+    "titre": "les promesses de l'aube",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0314",
+    "auteur": "DUPLESSIS-ROUSEE Carole",
+    "titre": "la fille des belles marines",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0315",
+    "auteur": "DUPLESSIS-ROUSEE Carole",
+    "titre": "l'or du soir",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0316",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "albane tome 1 : un ciel d'orage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0317",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "amélia un cœur en exil",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0318",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "Angélina, tome 1 : Les Mains de la vie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0319",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "Angélina, tome 2 : Le Temps des délivrances",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0320",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "Angélina, tome 3 : La Force de l'aurore (ou Le souffle de l'aurore)",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0321",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "la galerie des jalouses_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0322",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "la galerie des jalouses_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0323",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "la galerie des jalouses_3",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0324",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "l'amour écorché",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0325",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "le chant de l'océan",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0326",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "le refuge aux roses",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0327",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "le scandale des eaux folles_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0328",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "les feux de noêl",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0329",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "les larmes de l'hudson",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0330",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "les lumières de broadway",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0331",
+    "auteur": "DUPUY Marie-Bernadette",
+    "titre": "l'orpheline de manhattan",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0332",
+    "auteur": "DURAND Jacky",
+    "titre": "soleil d'or",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0333",
+    "auteur": "DURRENS Janine",
+    "titre": "pernelle et nicolas flamel",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0334",
+    "auteur": "EBERLEN Kate",
+    "titre": "miss you",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0335",
+    "auteur": "EDWARDSON Ake",
+    "titre": "le ciel se trouve sur terre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0336",
+    "auteur": "ELLORY Roger Jon",
+    "titre": "les neuf cercles",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0337",
+    "auteur": "EWING Amy",
+    "titre": "la clé noire",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0338",
+    "auteur": "EWING Amy",
+    "titre": "la rose blanche",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0339",
+    "auteur": "EWING Amy",
+    "titre": "le joyau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0340",
+    "auteur": "FERGUS Jim",
+    "titre": "les amazones",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0341",
+    "auteur": "FERNAYE Eléonore",
+    "titre": "audacieuse sarah",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0342",
+    "auteur": "FERNAYE Eléonore",
+    "titre": "aventureuse constance",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0343",
+    "auteur": "FERNAYE Eléonore",
+    "titre": "scandaleuse elisabeth",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0344",
+    "auteur": "FERRANTE Elena",
+    "titre": "la vie mensongère des adultes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0345",
+    "auteur": "FISCHER Elise",
+    "titre": "les noces de marie victoire",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0346",
+    "auteur": "FLETCHER Suzanne",
+    "titre": "la fille de l'irlandais",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0347",
+    "auteur": "FOLLETT Ken",
+    "titre": "la fresque de kingsbridge_1 les piliers de la terre \"ellen\"",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0348",
+    "auteur": "FOLLETT Ken",
+    "titre": "la fresque de kingsbridge_2 les piliers de la terre \"aliena\"",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0349",
+    "auteur": "FOLLETT Ken",
+    "titre": "la fresque de kingsbridge_3 une colonne de feu",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0350",
+    "auteur": "FOLLETT Ken",
+    "titre": "la fresque de kingsbridge_4 le crépuscule de l'aube",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0351",
+    "auteur": "FOLLETT Ken",
+    "titre": "le siècle : tome 1 la chute des géants",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0352",
+    "auteur": "FOLLETT Ken",
+    "titre": "le siècle : tome 2 l'hiver du monde",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0353",
+    "auteur": "FOLLETT Ken",
+    "titre": "le siècle : tome 3 aux portes de l'éternité",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0354",
+    "auteur": "FOUASSIER Eric",
+    "titre": "le bureau des affaires occultes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0355",
+    "auteur": "FOUASSIER Eric",
+    "titre": "les nuits de la peur bleue",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0356",
+    "auteur": "FRENCH Nicci",
+    "titre": "le jour des saints",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0357",
+    "auteur": "FYFIELD Frances",
+    "titre": "le fond de l'impasse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0358",
+    "auteur": "FYFIELD Frances",
+    "titre": "un cas de conscience",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0359",
+    "auteur": "GABALDON Diana",
+    "titre": "outlander",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0360",
+    "auteur": "GABALDON Diana",
+    "titre": "le chardon et le tartan",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0361",
+    "auteur": "GABALDON Diana",
+    "titre": "le voyage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0362",
+    "auteur": "GAGNON-THIBAUDEAU Marthe",
+    "titre": "la boiteuse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0363",
+    "auteur": "GAGNON-THIBAUDEAU Marthe",
+    "titre": "le bal de coton",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0364",
+    "auteur": "GALABRAITH Robert",
+    "titre": "blanc mortel",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0365",
+    "auteur": "GAMARRA Pierre",
+    "titre": "le maître d'école_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0366",
+    "auteur": "GAMARRA Pierre",
+    "titre": "le maître d'école_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0367",
+    "auteur": "GARDNER Lisa",
+    "titre": "juste derrière moi",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0368",
+    "auteur": "GARDNER Lisa",
+    "titre": "la maison d'à coté",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0369",
+    "auteur": "GARDNER Lisa",
+    "titre": "les morsures du passé",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0370",
+    "auteur": "GARDNER Lisa",
+    "titre": "sauver sa peau",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0371",
+    "auteur": "GAVALDA Anna",
+    "titre": "fendre l'armure",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0372",
+    "auteur": "GAY Marie-Claude",
+    "titre": "le passant du bois de lune",
+    "statut": "Lu",
+    "avis/note": "**"
+  },
+  {
+    "id": "L-0373",
+    "auteur": "GENEFORT Laurent",
+    "titre": "alaet l'insouciant",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0374",
+    "auteur": "GENTLE Marie",
+    "titre": "livre de cendre_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0375",
+    "auteur": "GENTLE Marie",
+    "titre": "livre de cendre_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0376",
+    "auteur": "GENTLE Marie",
+    "titre": "livre de cendre_3",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0377",
+    "auteur": "GENTLE Marie",
+    "titre": "livre de cendre_4",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0378",
+    "auteur": "GEORGE Elizabeth",
+    "titre": "la punition qu'elle mérite",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0379",
+    "auteur": "GEORGE Elizabeth",
+    "titre": "le cortège de la mort",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0380",
+    "auteur": "GEORGE Elizabeth",
+    "titre": "mortels péchés",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0381",
+    "auteur": "GEORGES Gérard",
+    "titre": "les chemins d'améthyste",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0382",
+    "auteur": "GEORGES Gérard",
+    "titre": "la demoiselle aux fleurs sauvages",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0383",
+    "auteur": "GERBAUD Laure",
+    "titre": "racines mêlées",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0384",
+    "auteur": "GESTERN Hélène",
+    "titre": "cézembre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0385",
+    "auteur": "GHANEM Océane",
+    "titre": "bienvenue à lafayette",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0386",
+    "auteur": "GIARD Michel",
+    "titre": "un soir de bonheur",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0387",
+    "auteur": "GIARD Michel",
+    "titre": "le tulipier de marie-antoinette",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0388",
+    "auteur": "GIEBEL Karine",
+    "titre": "juste une ombre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0389",
+    "auteur": "GIEBEL Karine",
+    "titre": "meurtre pour rédemption",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0390",
+    "auteur": "GIEBEL Karine",
+    "titre": "d'ombre et de silence",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0391",
+    "auteur": "GIEBEL Karine",
+    "titre": "purgatoire des innocents",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0392",
+    "auteur": "GIEBEL Karine",
+    "titre": "toutes blessent, la dernière tue",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0393",
+    "auteur": "GIEBEL Karine",
+    "titre": "jusqu'à ce que la mort nous unisse",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0394",
+    "auteur": "GIEBEL Karine",
+    "titre": "de force",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0395",
+    "auteur": "GIESBERT Jean-Cristophe",
+    "titre": "les moulins d'amérique_1, le fils de saint-jean",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0396",
+    "auteur": "GIESBERT Jean-Cristophe",
+    "titre": "les moulins d'amérique_2, l'ange de springswood",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0397",
+    "auteur": "GIORDANO Raphaëlle",
+    "titre": "heureux les fêlés car ils laissent passer la lumière",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0398",
+    "auteur": "GLATT Gérard",
+    "titre": "les sœurs ferrandon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0399",
+    "auteur": "GLEIZE Geoges-Patrick",
+    "titre": "les sentiers pastelliers",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0400",
+    "auteur": "GLEIZE Geoges-Patrick",
+    "titre": "le crépuscule des justes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0401",
+    "auteur": "GOODKIND Terry",
+    "titre": "les chroniques de nicci",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0402",
+    "auteur": "GOODKIND Terry",
+    "titre": "la maîtresse de la mort",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0403",
+    "auteur": "GOODKIND Terry",
+    "titre": "le linceul de l'éternité",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0404",
+    "auteur": "GOODKIND Terry",
+    "titre": "le siècle de pierre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0405",
+    "auteur": "GOODKIND Terry",
+    "titre": "cœur de glace noire",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0406",
+    "auteur": "GORNICHEC Geneviève",
+    "titre": "cœur de sorcière",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0407",
+    "auteur": "GOUGAUD Henri",
+    "titre": "l'enfant de la neige",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0408",
+    "auteur": "GOUGEON Richard",
+    "titre": "le bonheur des autres",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0409",
+    "auteur": "GOUNELLE Laurent",
+    "titre": "le jour où j'ai appris à vivre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0410",
+    "auteur": "GOUNELLE Laurent",
+    "titre": "la vie est une grande aventure",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0411",
+    "auteur": "GOUNELLE Laurent",
+    "titre": "un monde presque parfait",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0412",
+    "auteur": "GOUNELLE Laurent",
+    "titre": "je te promets la liberté",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0413",
+    "auteur": "GOUNELLE Laurent",
+    "titre": "le philosophe qui n'était pas sage",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0414",
+    "auteur": "GRAHAM Patrick",
+    "titre": "des fauves et des hommes",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0415",
+    "auteur": "GRANDES Almudena",
+    "titre": "les trois mariages de manolita",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0416",
+    "auteur": "GRANGE Jean-Cristophe",
+    "titre": "les rivières pourpre",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0417",
+    "auteur": "GREEN Emma",
+    "titre": "le goût de nos rêves",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0418",
+    "auteur": "GREEN Emma",
+    "titre": "dix bonnes raisons de te détester",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0419",
+    "auteur": "GREEN Emma",
+    "titre": "si les étoiles se taisent",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0420",
+    "auteur": "GREEN Emma",
+    "titre": "à nos cœurs battants",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0421",
+    "auteur": "GREEN Simon Richard",
+    "titre": "hawk et fisher_1",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0422",
+    "auteur": "GREEN Simon Richard",
+    "titre": "hawk et fisher_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0423",
+    "auteur": "GREEN Simon Richard",
+    "titre": "hawk et fisher_3",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0424",
+    "auteur": "GREGOIRE Amélie",
+    "titre": "l'enfant du sud",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0425",
+    "auteur": "GRIFFITHS Elly",
+    "titre": "les disparues du marais",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0426",
+    "auteur": "GRIMALDI Virginie",
+    "titre": "tu comprendras quand tu seras plus granded",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0427",
+    "auteur": "GRIMALDI Virginie",
+    "titre": "et que ne durent que les momments doux",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0428",
+    "auteur": "GRIMALDI Virginie",
+    "titre": "il nous restera ça",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0429",
+    "auteur": "GRIMALDI Virginie",
+    "titre": "le parfum du bonheur est plus fort que la pluie",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0430",
+    "auteur": "GRISHAM John",
+    "titre": "le manipulateur",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0431",
+    "auteur": "GRISHAM John",
+    "titre": "le droit au pardon",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0432",
+    "auteur": "GROSSMAN Lev",
+    "titre": "la terre des magiciens",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0433",
+    "auteur": "GROSSMAN Lev",
+    "titre": "le roi magicien",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0434",
+    "auteur": "GUILCHER Armelle",
+    "titre": "les amoureux de l'ile saint paul",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0435",
+    "auteur": "GUTCHEON Beth",
+    "titre": "avis de recherche",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0436",
+    "auteur": "GUTIERREZ Monica",
+    "titre": "la librairie de monsieur livingstone",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0437",
+    "auteur": "GWYNNE John",
+    "titre": "le temps de la terreur",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0438",
+    "auteur": "GWYNNE John",
+    "titre": "Le temps du sang_2",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0439",
+    "auteur": "KELMAN James",
+    "titre": "La route de Lafayette",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0440",
+    "auteur": "O'GORMAN Sian",
+    "titre": "Un diner à Sandycove",
+    "statut": "Lu",
+    "avis/note": ""
+  },
+  {
+    "id": "L-0441",
+    "auteur": "SIRE Cédric",
+    "titre": "déchirures",
+    "statut": "Lu",
+    "avis/note": ""
+  }
+]
