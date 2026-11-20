@@ -26,6 +26,22 @@
             }
         }
     </script>
+<style>
+/* Catalogue compact sur téléphone : trois colonnes sans défilement horizontal. */
+.mobile-detail-row, .mobile-detail-toggle { display:none; }
+@media (max-width: 639px) {
+  #catalogue-table { table-layout:fixed; width:100%; }
+  #catalogue-table th, #catalogue-table td { padding:9px 5px; font-size:12px; vertical-align:top; overflow-wrap:anywhere; }
+  #catalogue-table th:nth-child(1) {width:32%;}
+  #catalogue-table th:nth-child(2) {width:43%;}
+  #catalogue-table th:nth-child(3) {width:25%;}
+  #catalogue-table .desktop-extra {display:none;}
+  #catalogue-table .mobile-detail-toggle {display:inline-flex; margin-top:5px; padding:4px 0; color:#047857; font-size:11px; align-items:center; gap:4px;}
+  #catalogue-table .mobile-detail-row:not(.hidden) {display:table-row;}
+  #catalogue-table .mobile-detail-row td {background:#f8fafc; padding:10px; font-size:12px;}
+  #catalogue-table .status-cell span {white-space:normal; padding:3px 5px; font-size:10px;}
+}
+</style>
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-full flex flex-col font-sans">
 
@@ -149,14 +165,14 @@
 
                     <!-- Tableau / Liste -->
                     <div class="overflow-x-auto flex-grow rounded-xl border border-slate-100">
-                        <table class="w-full text-left border-collapse">
+                        <table id="catalogue-table" class="w-full text-left border-collapse">
                             <thead>
                                 <tr class="bg-slate-50 text-slate-500 text-xs uppercase tracking-wider border-b border-slate-200">
                                     <th class="py-3 px-4 font-semibold">Auteur</th>
                                     <th class="py-3 px-4 font-semibold">Titre</th>
                                     <th class="py-3 px-4 font-semibold">Statut</th>
-                                    <th class="py-3 px-4 font-semibold">Avis</th>
-                                    <th class="py-3 px-4 font-semibold text-right">Administration</th>
+                                    <th class="py-3 px-4 font-semibold desktop-extra">Avis</th>
+                                    <th class="py-3 px-4 font-semibold text-right desktop-extra">Administration</th>
                                 </tr>
                             </thead>
                             <tbody id="catalogue-table-body" class="divide-y divide-slate-100 text-sm">
@@ -404,7 +420,7 @@
                 return;
             }
 
-            tbody.innerHTML = filtered.map(b => `
+            tbody.innerHTML = filtered.map((b, i) => `
                 <tr class="hover:bg-slate-50 transition-colors group">
                     <td class="py-3 px-4 font-medium text-slate-900">
                         <div class="flex items-center justify-between gap-2">
@@ -412,16 +428,27 @@
                             
                         </div>
                     </td>
-                    <td class="py-3 px-4 text-slate-700">${escapeHtml(b.titre)}</td>
-                    <td class="py-3 px-4">
+                    <td class="py-3 px-4 text-slate-700">${escapeHtml(b.titre)}<button type="button" class="mobile-detail-toggle" onclick="toggleMobileDetails(${i}, this)" aria-expanded="false" aria-label="Afficher les détails de cet ouvrage"><i class="fa-solid fa-chevron-down"></i> Détails</button></td>
+                    <td class="py-3 px-4 status-cell">
                                                  ${getstatutBadge(b.statut)}
                     </td>
-                    <td class="py-3 px-4 text-slate-500 text-xs italic max-w-xs truncate">${escapeHtml(b.avis || '-')}</td>
-                                         <td class="py-3 px-4 text-right">
+                    <td class="py-3 px-4 text-slate-500 text-xs italic max-w-xs truncate desktop-extra">${escapeHtml(b.avis || '-')}</td>
+                                         <td class="py-3 px-4 text-right desktop-extra">
                          <a href="${ADMIN_URL}" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline text-xs" title="Ouvrir l'administration sécurisée"><i class="fa-solid fa-lock mr-1"></i>Modifier</a>
                      </td>
                 </tr>
+                <tr class="mobile-detail-row hidden" id="mobile-detail-${i}">
+                    <td colspan="3"><strong>Avis :</strong> ${escapeHtml(b.avis || 'Aucun avis')}<div class="mt-2"><a href="${ADMIN_URL}" target="_blank" rel="noopener noreferrer" class="text-emerald-700 underline"><i class="fa-solid fa-lock"></i> Administrer</a></div></td>
+                </tr>
             `).join('');
+        }
+
+        function toggleMobileDetails(index, button) {
+            const detail = document.getElementById('mobile-detail-' + index);
+            if (!detail) return;
+            const isOpen = detail.classList.toggle('hidden') === false;
+            button.setAttribute('aria-expanded', String(isOpen));
+            button.innerHTML = isOpen ? '<i class="fa-solid fa-chevron-up"></i> Masquer' : '<i class="fa-solid fa-chevron-down"></i> Détails';
         }
 
         // --- RECHERCHE BIDIRECTIONNELLE ---
