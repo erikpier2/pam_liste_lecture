@@ -57,15 +57,7 @@
                     <p class="text-xs text-slate-500">Catalogue de lecture</p>
                 </div>
             </div>
-            <!-- Navigation par onglets -->
-            <nav class="flex space-x-1 sm:space-x-2 bg-slate-100 p-1 rounded-xl">
-                <button onclick="switchTab('catalogue')" id="btn-tab-catalogue" class="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm">
-                    <i class="fa-solid fa-list mr-1.5 sm:mr-2"></i>Catalogue
-                </button>
-                <button onclick="switchTab('recherche')" id="btn-tab-recherche" class="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900">
-                    <i class="fa-solid fa-magnifying-glass mr-1.5 sm:mr-2"></i>Recherche Croisée
-                </button>
-            </nav>
+            <!-- Catalogue unique : pas de navigation par onglets -->
             <!-- Actions Export / Import JSON -->
             <div class="flex items-center space-x-1.5">
                 <button onclick="exportData()" title="Exporter la liste (JSON)" class="p-2 text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 rounded-xl transition text-sm">
@@ -158,7 +150,8 @@
                                     <i class="fa-solid fa-search text-xs"></i>
                                 </span>
                                 <input type="text" id="catalogue-search" oninput="renderCatalogue()" placeholder="Filtrer auteur, titre..." 
-                                    class="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                                    class="w-full pl-9 pr-10 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
+                                <button type="button" id="catalogue-clear" onclick="clearCatalogueSearch()" aria-label="Effacer la recherche" title="Effacer la recherche" class="hidden absolute inset-y-0 right-1 px-2 text-slate-400 hover:text-rose-600 focus:outline-none"><i class="fa-solid fa-circle-xmark"></i></button>
                             </div>
                         </div>
                     </div>
@@ -179,77 +172,6 @@
                                 <!-- Injecté dynamiquement -->
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ONGLET 2 : RECHERCHE BIDIRECTIONNELLE -->
-        <section id="tab-recherche" class="space-y-8 hidden">
-            <div class="text-center max-w-2xl mx-auto space-y-2">
-                <h2 class="text-2xl font-bold text-slate-800">Recherche Bidirectionnelle</h2>
-                <p class="text-sm text-slate-500">Interrogez votre bibliothèque instantanément par Auteur ou par Titre grâce à l'autocomplétion dynamique.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Recherche par Auteur -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-                    <div class="border-b border-slate-100 pb-4">
-                        <div class="flex items-center space-x-3 mb-3">
-                            <div class="p-2.5 bg-emerald-50 text-emerald-600 rounded-xl"><i class="fa-solid fa-feather-pointed"></i></div>
-                            <div>
-                                <h3 class="font-bold text-slate-800">Recherche par Auteur</h3>
-                                <p class="text-xs text-slate-500">Trouvez tous les ouvrages écrits par un auteur</p>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <input type="text" id="search-auteur-input"
-                                autocomplete="off"
-                                oninput="handleauteurSearch(); filterSearchAuteurSuggestions(); updateSearchAuteurClearButton()"
-                                onfocus="filterSearchAuteurSuggestions()"
-                                placeholder="Tapez ou sélectionnez un auteur..."
-                                class="w-full pl-4 pr-11 py-3 bg-slate-50 border border-slate-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition-all">
-                            <button type="button" id="search-auteur-clear"
-                                onclick="clearSearchAuteur()"
-                                aria-label="Effacer la recherche auteur" title="Effacer la recherche"
-                                class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-rose-600 active:text-rose-700 text-lg p-1 rounded-full">
-                                <i class="fa-solid fa-circle-xmark"></i>
-                            </button>
-                            <!-- Liste personnalisée : affichage vertical, adapté au tactile -->
-                            <div id="search-auteur-dropdown"
-                                class="hidden absolute left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl max-h-64 overflow-y-auto z-40 divide-y divide-slate-100">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="auteur-search-results" class="space-y-3">
-                        <div class="text-center py-8 text-slate-400 text-sm italic">
-                            Sélectionnez un auteur pour afficher ses ouvrages.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recherche par Titre -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-                    <div class="border-b border-slate-100 pb-4">
-                        <div class="flex items-center space-x-3 mb-3">
-                            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i class="fa-solid fa-book"></i></div>
-                            <div>
-                                <h3 class="font-bold text-slate-800">Recherche par Titre</h3>
-                                <p class="text-xs text-slate-500">Retrouvez l'auteur et le statut d'un livre</p>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <input type="text" id="search-titre-input" list="titres-datalist" oninput="handletitreSearch()" placeholder="Tapez ou sélectionnez un titre..." 
-                                class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all">
-                            <datalist id="titres-datalist"></datalist>
-                        </div>
-                    </div>
-
-                    <div id="titre-search-results" class="space-y-3">
-                        <div class="text-center py-8 text-slate-400 text-sm italic">
-                            Sélectionnez un titre pour afficher son auteur et son statut.
-                        </div>
                     </div>
                 </div>
             </div>
@@ -335,28 +257,6 @@
             }, 3000);
         }
 
-        // Basculer entre les onglets
-        function switchTab(tabName) {
-            const catSection = document.getElementById('tab-catalogue');
-            const rechSection = document.getElementById('tab-recherche');
-            const btnCat = document.getElementById('btn-tab-catalogue');
-            const btnRech = document.getElementById('btn-tab-recherche');
-
-            if (tabName === 'catalogue') {
-                catSection.classList.remove('hidden');
-                rechSection.classList.add('hidden');
-                btnCat.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm';
-                btnRech.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900';
-                renderCatalogue();
-            } else {
-                catSection.classList.add('hidden');
-                rechSection.classList.remove('hidden');
-                btnRech.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 bg-white text-emerald-700 shadow-sm';
-                btnCat.className = 'px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 text-slate-600 hover:text-slate-900';
-                initSearchDatalists();
-            }
-        }
-
         // Obtenir le badge de couleur selon le statut
         function getstatutBadge(statut) {
             switch(statut) {
@@ -379,32 +279,23 @@
             document.getElementById('stat-alire').textContent = books.filter(b => b.statut === 'À lire').length;
         }
 
-        // Récupérer la liste triée des auteurs uniques
-        function getUniqueauteurs() {
-            return [...new Set(books.map(b => b.auteur.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
-        }
-
-        // Mettre à jour toutes les datalists d'auteurs et de titres
-        function syncDatalists() {
-            const auteurs = getUniqueauteurs();
-
-            
-
-            const titres = [...new Set(books.map(b => b.titre.trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
-            const titresDatalist = document.getElementById('titres-datalist');
-            if (titresDatalist) titresDatalist.innerHTML = titres.map(t => `<option value="${escapeHtml(t)}">`).join('');
-        }
-
         // Toute opération d'écriture ouvre l'administration protégée.
         function quickAddForauteur() { openAdmin(); }
         function cycleBookstatut() { openAdmin(); }
 
+        function clearCatalogueSearch() {
+            const input = document.getElementById('catalogue-search');
+            input.value = '';
+            renderCatalogue();
+            input.focus();
+        }
+
         // Rendu du Catalogue
         function renderCatalogue() {
             updateStats();
-            syncDatalists();
             const tbody = document.getElementById('catalogue-table-body');
-            const searchVal = document.getElementById('catalogue-search').value.toLowerCase();
+            const searchVal = document.getElementById('catalogue-search').value.toLocaleLowerCase('fr');
+            document.getElementById('catalogue-clear').classList.toggle('hidden', !searchVal);
             const statutFilter = document.getElementById('catalogue-statut-filter').value;
 
             const filtered = books.filter(b => {
@@ -413,7 +304,8 @@
                                     b.statut.toLowerCase().includes(searchVal);
                 const matchesstatut = statutFilter === 'ALL' || b.statut === statutFilter;
                 return matchesText && matchesstatut;
-            });
+            }).sort((a, b) => a.auteur.localeCompare(b.auteur, 'fr', {sensitivity:'base'}) ||
+                              a.titre.localeCompare(b.titre, 'fr', {sensitivity:'base'}));
 
             if (filtered.length === 0) {
                 tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8 text-slate-400 italic">Aucun ouvrage trouvé</td></tr>`;
@@ -451,157 +343,6 @@
             button.innerHTML = isOpen ? '<i class="fa-solid fa-chevron-up"></i> Masquer' : '<i class="fa-solid fa-chevron-down"></i> Détails';
         }
 
-        // --- RECHERCHE BIDIRECTIONNELLE ---
-        // Suggestions verticales personnalisées pour la recherche par auteur.
-        // Contrairement à <datalist>, le rendu est maîtrisé sur PC et Android.
-        function filterSearchAuteurSuggestions() {
-            const input = document.getElementById('search-auteur-input');
-            const dropdown = document.getElementById('search-auteur-dropdown');
-            if (!input || !dropdown) return;
-
-            const query = input.value.toLocaleLowerCase('fr').trim();
-            const auteurs = getUniqueauteurs();
-            const matches = auteurs.filter(a =>
-                a.toLocaleLowerCase('fr').includes(query)
-            );
-
-            if (matches.length === 0) {
-                dropdown.innerHTML = '<div class="px-4 py-3 text-sm text-slate-400">Aucun auteur correspondant</div>';
-                dropdown.classList.remove('hidden');
-                return;
-            }
-
-            dropdown.innerHTML = matches.map(auteur => {
-                const count = books.filter(b => b.auteur === auteur).length;
-                return `
-                    <button type="button"
-                        onclick="selectSearchAuteur('${escapeJsStr(auteur)}')"
-                        class="w-full text-left px-4 py-3 text-base text-slate-800 hover:bg-emerald-50 active:bg-emerald-100 flex items-center justify-between gap-3 transition">
-                        <span class="font-medium">${escapeHtml(auteur)}</span>
-                        <span class="text-xs text-slate-400 whitespace-nowrap">${count} livre(s)</span>
-                    </button>`;
-            }).join('');
-
-            dropdown.classList.remove('hidden');
-        }
-
-        function selectSearchAuteur(auteur) {
-            const input = document.getElementById('search-auteur-input');
-            const dropdown = document.getElementById('search-auteur-dropdown');
-            input.value = auteur;
-            dropdown.classList.add('hidden');
-            handleauteurSearch();
-            updateSearchAuteurClearButton();
-        }
-
-        // Affiche le bouton d'effacement uniquement si une recherche est présente.
-        function updateSearchAuteurClearButton() {
-            const input = document.getElementById('search-auteur-input');
-            const clearButton = document.getElementById('search-auteur-clear');
-            if (!input || !clearButton) return;
-            clearButton.classList.toggle('hidden', input.value.trim() === '');
-        }
-
-        // Efface la recherche et réinitialise les résultats.
-        function clearSearchAuteur() {
-            const input = document.getElementById('search-auteur-input');
-            const dropdown = document.getElementById('search-auteur-dropdown');
-            if (!input) return;
-            input.value = '';
-            handleauteurSearch();
-            updateSearchAuteurClearButton();
-            if (dropdown) dropdown.classList.add('hidden');
-            input.focus();
-        }
-
-        function initSearchDatalists() {
-            syncDatalists();
-        }
-
-        function handleauteurSearch() {
-            const query = document.getElementById('search-auteur-input').value.toLowerCase().trim();
-            const resultsContainer = document.getElementById('auteur-search-results');
-
-            if (!query) {
-                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Sélectionnez un auteur pour afficher ses ouvrages.</div>`;
-                return;
-            }
-
-            const matchingBooks = books.filter(b => b.auteur.toLowerCase().includes(query));
-
-            if (matchingBooks.length === 0) {
-                const rawInput = document.getElementById('search-auteur-input').value.trim();
-                resultsContainer.innerHTML = `
-                    <div class="text-center py-6 space-y-3">
-                        <p class="text-slate-400 text-sm italic">Aucun ouvrage trouvé pour cet auteur.</p>
-                        <button onclick="quickAddForauteur('${escapeJsStr(rawInput)}')" class="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-medium rounded-xl transition shadow-sm">
-                            <i class="fa-solid fa-plus mr-1.5"></i>Créer et ajouter un ouvrage pour "${escapeHtml(rawInput)}"
-                        </button>
-                    </div>`;
-                return;
-            }
-
-            const auteurName = matchingBooks[0].auteur;
-            resultsContainer.innerHTML = `
-                <div class="bg-emerald-50 border border-emerald-100 p-4 rounded-xl mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                    <div>
-                        <p class="text-xs text-emerald-600 font-semibold uppercase tracking-wider">Auteur trouvé</p>
-                        <h4 class="text-lg font-bold text-slate-800">${escapeHtml(auteurName)}</h4>
-                        <p class="text-xs text-slate-600 mt-0.5">${matchingBooks.length} ouvrage(s) répertorié(s)</p>
-                    </div>
-                    <button onclick="quickAddForauteur('${escapeJsStr(auteurName)}')" 
-                        class="inline-flex items-center justify-center px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold rounded-xl transition shadow-sm shrink-0">
-                        <i class="fa-solid fa-plus mr-1.5"></i>Ajouter un ouvrage pour ${escapeHtml(auteurName)}
-                    </button>
-                </div>
-                <div class="space-y-3">
-                    ${matchingBooks.map(b => `
-                        <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl flex items-center justify-between">
-                            <div>
-                                <h5 class="font-bold text-slate-800 text-sm">${escapeHtml(b.titre)}</h5>
-                                ${b.avis ? `<p class="text-xs text-slate-500 italic mt-1">"${escapeHtml(b.avis)}"</p>` : ''}
-                            </div>
-                            <div>${getstatutBadge(b.statut)}</div>
-                        </div>
-                    `).join('')}
-                </div>
-            `;
-        }
-
-        function handletitreSearch() {
-            const query = document.getElementById('search-titre-input').value.toLowerCase().trim();
-            const resultsContainer = document.getElementById('titre-search-results');
-
-            if (!query) {
-                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Sélectionnez un titre pour afficher son auteur et son statut.</div>`;
-                return;
-            }
-
-            const matchingBooks = books.filter(b => b.titre.toLowerCase().includes(query));
-
-            if (matchingBooks.length === 0) {
-                resultsContainer.innerHTML = `<div class="text-center py-8 text-slate-400 text-sm italic">Titre introuvable dans le catalogue.</div>`;
-                return;
-            }
-
-            resultsContainer.innerHTML = matchingBooks.map(b => `
-                <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl space-y-3">
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <p class="text-xs text-blue-600 font-semibold uppercase tracking-wider">Ouvrage trouvé</p>
-                            <h4 class="text-lg font-bold text-slate-800">${escapeHtml(b.titre)}</h4>
-                        </div>
-                        <div>${getstatutBadge(b.statut)}</div>
-                    </div>
-                    <div class="border-t border-blue-200/50 pt-2 flex items-center justify-between text-sm">
-                        <span class="text-slate-600">Auteur : <strong class="text-slate-800">${escapeHtml(b.auteur)}</strong></span>
-                    </div>
-                    ${b.avis ? `<p class="text-xs text-slate-500 italic bg-white/60 p-2.5 rounded-lg">Avis : "${escapeHtml(b.avis)}"</p>` : ''}
-                </div>
-            `).join('');
-        }
-
-        // Échappement HTML basique
         function escapeHtml(str) {
             if (!str) return '';
             return String(str).replace(/&/g, '&amp;')
@@ -654,15 +395,6 @@
                 event.target.value = '';
             }
         }
-
-        // Fermer le menu déroulant d'autocomplétion au clic extérieur
-        document.addEventListener('click', function(e) {
-            const searchInput = document.getElementById('search-auteur-input');
-            const searchDropdown = document.getElementById('search-auteur-dropdown');
-            if (searchInput && searchDropdown && !searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
-                searchDropdown.classList.add('hidden');
-            }
-        });
 
         // Initialisation au chargement de la page
         window.onload = async function() {
