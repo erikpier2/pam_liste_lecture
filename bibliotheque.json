@@ -3025,55 +3025,734 @@
     },
     {
       "id": "L-0439",
+      "auteur": "HADERLÉ Aurélie",
+      "titre": "Le cœur des fileuses",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0440",
+      "auteur": "HADERLÉ Aurélie",
+      "titre": "Un été à Cameline",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0441",
+      "auteur": "HADERLÉ Aurélie",
+      "titre": "Un noêl à Cameline",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0442",
+      "auteur": "HALE Jenny",
+      "titre": "La délicatesse des papillons",
+      "statut": "Lu",
+      "avis/note": "***"
+    },
+    {
+      "id": "L-0443",
+      "auteur": "HALL KELLY Marthe",
+      "titre": "Le lila ne refleurit qu'après un hiver rigoureux",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0444",
+      "auteur": "HALLS Stacey",
+      "titre": "Le refuge des femmes perdues",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0445",
+      "auteur": "HALLS Stacey",
+      "titre": "Les sorcières de Pendle",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0446",
+      "auteur": "HANNAN Kristin",
+      "titre": " L'instant magique",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0447",
+      "auteur": "HANSER Amélie",
+      "titre": "Le vent des secrets",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0448",
       "auteur": "HARAN Elisabeth",
       "titre": "Etoiles dans le ciel du sud",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0440",
+      "id": "L-0449",
+      "auteur": "HAREL Cécile",
+      "titre": "En attendant que les beaux jours reviennent",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0450",
+      "auteur": "HARGLA Indrik",
+      "titre": "Le glaive du bourreau",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0451",
       "auteur": "HARKNESS Déborah",
       "titre": "Le livre perdu des sortilèges - Tome 1",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0441",
+      "id": "L-0452",
       "auteur": "HARKNESS Déborah",
       "titre": "Le nœud de la sorcière - Tome 3",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0442",
+      "id": "L-0453",
       "auteur": "HARKNESS Déborah",
       "titre": "L'école de la nuit - Tome 2",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0443",
+      "id": "L-0454",
+      "auteur": "HARNISCH kristen",
+      "titre": "Les vignes de Sarah",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0455",
+      "auteur": "HARNISCH kristen",
+      "titre": "L'héritage du maître de chai",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0456",
+      "auteur": "HARPMAN Jacqueline",
+      "titre": "Ce que Dominique n'a pas su",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0457",
+      "auteur": "HARPMAN Jacqueline",
+      "titre": "En toute impunité",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0458",
+      "auteur": "HARRIS Charlaine",
+      "titre": "La communauté du sud",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0459",
+      "auteur": "HARRIS Charlaine",
+      "titre": "Quand le danger rôde",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0460",
+      "auteur": "HARRISON Jim",
+      "titre": "Grand maître",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0461",
+      "auteur": "HARRISON Jim",
+      "titre": "Les jours de la nuit",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0462",
+      "auteur": "HARSTAD Donald",
+      "titre": "Onze jours",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0463",
+      "auteur": "HENRY Natacha",
+      "titre": "Rosa Bonheur - L'audacieuse",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0464",
+      "auteur": "HERMARY-VIEILLE Catherine",
+      "titre": "D'or et de sang",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0465",
+      "auteur": "HIGGINS CLARK Carol",
+      "titre": "Au voleur",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0466",
+      "auteur": "HIGGINS CLARK Carol",
+      "titre": "Irish coffee",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0467",
+      "auteur": "HIGGINS CLARK Mary",
+      "titre": "Deux petites filles en bleu",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0468",
       "auteur": "HIGGINS CLARK Mary",
       "titre": "Le billet gagnant",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0444",
+      "id": "L-0469",
+      "auteur": "HIGGINS CLARK Mary",
+      "titre": "Quand reviendras-tu?",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0470",
+      "auteur": "HIGGINS CLARK Mary",
+      "titre": "Une chanson douce",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0471",
+      "auteur": "HISLOP Victoria",
+      "titre": "Cette nuit là",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0472",
+      "auteur": "HISLOP Victoria",
+      "titre": "L'île des oubliés",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0473",
+      "auteur": "HISLOP Victoria",
+      "titre": "Une dernière danse - Tome 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0474",
+      "auteur": "HISLOP Victoria",
+      "titre": "Une dernière danse - Tome 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0475",
+      "auteur": "HOAG Tami",
+      "titre": "Meurtre au carnaval",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0476",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0477",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0478",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 3",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0479",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 4",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0480",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 5",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0481",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 6",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0482",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 7",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0483",
+      "auteur": "HOBB Robin",
+      "titre": "La cité des anciens - 8",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0484",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0485",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0486",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -3",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0487",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -4",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0488",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -5",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0489",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -6",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0490",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -7",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0491",
+      "auteur": "HOBB Robin",
+      "titre": "Le soldat chamane -8",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0492",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0493",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0494",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 3",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0495",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 4",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0496",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 5",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0497",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 6",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0498",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 7",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0499",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 8",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0500",
+      "auteur": "HOBB Robin",
+      "titre": "Les aventuriers de la mer - 9",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0501",
+      "auteur": "HOHOTA Livia L",
+      "titre": "Hope",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0502",
+      "auteur": "HOOVER Colleen",
+      "titre": "Reminders of him",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0503",
+      "auteur": "HOWE Katherine",
+      "titre": "Conversion",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0504",
+      "auteur": "HUG Nathalie",
+      "titre": "Comme un enchantement",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0505",
+      "auteur": "HUMBERT Denis",
+      "titre": "La rouvraie",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0506",
+      "auteur": "HUON Anne-Gaëlle",
+      "titre": "Le rossignol",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0507",
+      "auteur": "HUSSAR Caroline",
+      "titre": "Le rivage le plus sûr",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0508",
+      "auteur": "HYDE Elisabeth",
+      "titre": "La fille du Dr Duprey",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0509",
+      "auteur": "ICART Anne",
+      "titre": "Le temps des lilas",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0510",
+      "auteur": "JACOB Yves",
+      "titre": "Une mère en partage",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0511",
+      "auteur": "JACOBS Anna",
+      "titre": "La traversée - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0512",
+      "auteur": "JACOBS Anna",
+      "titre": "La traversée - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0513",
+      "auteur": "JACOBS Anna",
+      "titre": "Le manoir oublié - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0514",
+      "auteur": "JACOBS Anna",
+      "titre": "Le manoir oublié - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0515",
+      "auteur": "JACOBS Anna",
+      "titre": "Les pionniers",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0516",
+      "auteur": "JACOBS Anna",
+      "titre": "Swan Hill",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0517",
+      "auteur": "JACOBS Anna",
+      "titre": "Un vent de renouveau - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0518",
+      "auteur": "JACOBS Anna",
+      "titre": "Un vent de renouveau - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0519",
+      "auteur": "JACQUEMIN Patrick",
+      "titre": "L'odeur de l'herbe après la pluie",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0520",
+      "auteur": "JAOUEN Hervé",
+      "titre": "A l'anguille agile",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0521",
+      "auteur": "JAOUEN Hervé",
+      "titre": "Les confidences du pommier",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0522",
+      "auteur": "JAOUEN Hervé",
+      "titre": "Les sœurs Gwenan",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0523",
+      "auteur": "JAOUEN Hervé",
+      "titre": "Sainte Zélie de la palud",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0524",
+      "auteur": "JAVELAUD Corinne",
+      "titre": "L'odyssée de Clarence",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0525",
+      "auteur": "JOHANNSDOTTIR Steinunn",
+      "titre": "L'esclave islandaise - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0526",
+      "auteur": "JOHANNSDOTTIR Steinunn",
+      "titre": "L'esclave islandaise - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0527",
+      "auteur": "JOMAIN Sophie",
+      "titre": "Les perce-neige s'éveillent sous les flocons",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0528",
+      "auteur": "JONASSON Ragnar ",
+      "titre": "A qui la faute ?",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0529",
+      "auteur": "JONASSON Ragnar et JAKOBSDOTTIR Katrin",
+      "titre": "Rey Kja Vik",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0530",
+      "auteur": "JONES Evelyne",
+      "titre": "Find me in the highlands",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0531",
+      "auteur": "JONES Evelyne",
+      "titre": "Kiss me in the highlands",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0532",
+      "auteur": "JONES Sandy",
+      "titre": "L'autre femme de ta vie",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0533",
+      "auteur": "JONSBERG Barry",
+      "titre": "Dis moi que la vie est belle",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0534",
+      "auteur": "JORDAN Robert ",
+      "titre": "La roue du temps - 1",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0535",
+      "auteur": "JORDAN Robert ",
+      "titre": "La roue du temps - 2",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0536",
+      "auteur": "JORDAN Robert ",
+      "titre": "La roue du temps - 3",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0537",
+      "auteur": "JORDAN Robert ",
+      "titre": "La roue du temps - 4",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0538",
+      "auteur": "JUDENNE Roger",
+      "titre": "Le silence des rives",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0539",
+      "auteur": "JUDENNE Roger",
+      "titre": "Louison la douce",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0540",
       "auteur": "KELMAN James",
       "titre": "La route de Lafayette",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0445",
+      "id": "L-0541",
+      "auteur": "MACDONALD Patricia J.",
+      "titre": "Un étranger dans la maison",
+      "statut": "Lu",
+      "avis/note": ""
+    },
+    {
+      "id": "L-0542",
       "auteur": "O'GORMAN Sian",
       "titre": "Un diner à Sandycove",
       "statut": "Lu",
       "avis/note": ""
     },
     {
-      "id": "L-0446",
+      "id": "L-0543",
       "auteur": "SIRE Cédric",
       "titre": "déchirures",
       "statut": "Lu",
